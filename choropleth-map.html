@@ -67,16 +67,7 @@
 		}
 	</style>
 	
-	
-	
 	<div id='map' style='width: 1500px; height: 1100px;'></div>
-
-	<script> mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ';
-		var map = new mapboxgl.Map({
-			container: 'map',
-			style: 'mapbox://styles/vjoelm/cinq7yqys005lbwmagfi9i1oz'
-		});
-	</script>
 
 <div class='map-overlay' id='features'><h2>US Population Density</h2><div id='pd'><p>Hover over a state!</p></div></div>
 <div class='map-overlay' id='legend'></div>
@@ -85,6 +76,10 @@
 <body>
 <div id='map'></div>
 <script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ';
+		var map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/vjoelm/cinq7yqys005lbwmagfi9i1oz'
 		map.on('load', function() {
 		  var layers = ['0-10', '10-20', '20-50', '50-100', '100-200', '200-500', '500-1000', '1000+'];
 		
