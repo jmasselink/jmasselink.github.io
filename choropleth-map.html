@@ -67,14 +67,15 @@
 		}
 	</style>
 
-<div class='map-overlay' id='features'><h2>US Population Density</h2><div id='pd'><p>Hover over a state!</p></div></div>
-<div class='map-overlay' id='legend'></div>
 </head>
 
 <body>
-<div id='map' class='map'> </div>
+<div id='map'> </div>
+<div class='map-overlay' id='features'><h2>US Population Density</h2><div id='pd'><p>Hover over a state!</p></div></div>
+<div class='map-overlay' id='legend'></div>
+
 <script>
-		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ';
 		var map = new mapboxgl.Map({
 			container: 'map',
 			style: 'mapbox://styles/vjoelm/cinq7yqys005lbwmagfi9i1oz'
