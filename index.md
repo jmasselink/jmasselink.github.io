@@ -1,17 +1,17 @@
 ---
-title: christy
+title: joel
 weight: 1
 permalink: /
 layout: default
 ---
 
-Hi, I'm **Christy**.
+Hi, I'm **Joel**.
 
-![christy](/images/Heaton.jpg)
+![joelm](/images/Masselink.jpg)
 
-I'm a **GIS** analyst at [SGSI](http://www.sgsi.com), faculty lecturer at the [University of Washington](http://www.gisonline.uw.edu/), and proud member of [CUGOS](http://cugos.org). I also help organize the [Seattle chapter of Maptime](http://maptimesea.github.io/). I'm into Python programming, open source software, and teaching.
+I'm a **GIS** developer at [Vulcan Inc.](http://www.vulcan.com), and proud member of [OpenStreetMap US](http://cugos.org) and [Society for Conservation GIS](http://scgis.org). I'm into Humanitarian OpenStreetMap, open source software, and Python programming.
 
-* Email: [christyheaton@gmail.com](mailto:christyheaton@gmail.com)
-* Github: [christyheaton](http://github.com/christyheaton)
-* Twitter: [@christytoes](http://twitter.com/christytoes)
-* LinkedIn: [christyheaton](https://www.linkedin.com/in/christyheaton)
+* Email: [jmasselink@gmail.com](mailto:christyheaton@gmail.com)
+* Github: [jmasselink](http://github.com/jmasselink)
+* Twitter: [@j_masselink](http://twitter.com/j_masselink)
+* LinkedIn: [jmasselink](https://www.linkedin.com/in/jmasselink)
