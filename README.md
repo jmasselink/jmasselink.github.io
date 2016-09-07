@@ -1,2 +1,2 @@
 # jmasselink.github.io
-site
+this is the home of my future website and associated code wranglings.
