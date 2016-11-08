@@ -9,7 +9,7 @@ Hi, I'm **Joel**.
 
 ![joelm](/images/Masselink-edit.jpg)
 
-I'm a **GIS** developer at [Vulcan](http://www.vulcan.com), and proud member of [OpenStreetMap US](http://cugos.org) and [Society for Conservation GIS](http://scgis.org). I enjoy working on OpenStreetMap, open source software, and Python programming.
+I'm a **GIS** developer at [Vulcan Tech](http://www.vulcan.com/technology), and a proud member of [OpenStreetMap US](http://cugos.org) and [Society for Conservation GIS](http://scgis.org). I enjoy working on OpenStreetMap, open source software, and Python programming.
 
 * Email: [jmasselink@gmail.com](mailto:christyheaton@gmail.com)
 * GitHub: [jmasselink](http://github.com/jmasselink)
