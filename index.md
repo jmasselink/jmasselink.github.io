@@ -15,4 +15,4 @@ I'm a **GIS** developer at [Vulcan](http://www.vulcan.com), and proud member of 
 * GitHub: [jmasselink](http://github.com/jmasselink)
 * Twitter: [@j_masselink](http://twitter.com/j_masselink)
 * LinkedIn: [jmasselink](https://www.linkedin.com/in/jmasselink)
-* OpenStreetMap: [mbela](http://www.openstreetmap.org/user/mbela) - here's my *How did you contribute to OpenStreetMap ?*[user profile](http://hdyc.neis-one.org/?mbela) courtesy of Pascal Neis
+* OpenStreetMap: [mbela](http://www.openstreetmap.org/user/mbela) - here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
