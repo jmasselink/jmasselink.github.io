@@ -13,7 +13,7 @@
 
 	<script src="/leaflet/leaflet.js"></script>
 	<script>
-	        var mymap = L.map('mapid').setView([47.67, -122.38], 9);
+	  var mymap = L.map('mapid').setView([47.67, -122.38], 9);
 		var marker = L.marker([47.6740, -122.3810]).addTo(mymap);
 
 	        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ', {
@@ -23,7 +23,10 @@
 	            accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 	            // map_id vjoelm.eb99e04e
 		}).addTo(mymap);
-		L.geojson(BushcampCo-sites).addTo(mymap);
+
+		var sites = L.geojson(BushcampCo-sites) ///.addTo(mymap);
+
+		mymap.addLayer(sites)
 
 	</script>
 </body>
