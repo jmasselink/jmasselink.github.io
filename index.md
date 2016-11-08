@@ -16,3 +16,6 @@ I'm a **GIS** developer at [Vulcan Tech](http://www.vulcan.com/technology), and 
 * Twitter: [@j_masselink](http://twitter.com/j_masselink)
 * LinkedIn: [jmasselink](https://www.linkedin.com/in/jmasselink)
 * OpenStreetMap: [mbela](http://www.openstreetmap.org/user/mbela) - here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
+
+
+[example webmap](/maps.leaflet-map.html)
