@@ -6,6 +6,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/leaflet/leaflet.css" />
+	<script src="/geojson/BushcampCo-sites.geojson" type="/text/javascript"></script>
 </head>
 <body>
 	<div id="mapid" style="width: 1800px; height: 1000px"></div>
@@ -22,6 +23,7 @@
 	            accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 	            // map_id vjoelm.eb99e04e
 		}).addTo(mymap);
+		L.geojson(BushcampCo-sites).addTo(mymap);
 
 	</script>
 </body>
