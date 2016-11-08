@@ -19,3 +19,4 @@ I'm a **GIS** developer at [Vulcan Tech](http://www.vulcan.com/technology), and 
 
 
 [example webmap](/maps/leaflet-map.html)
+[S. Luangwa webmap](/maps/SLuangwa-map.html)
