@@ -8,11 +8,14 @@ layout: default
 Hi, I'm **Joel**.
 
 [comment]:![joelm](/images/Masselink-edit.jpg)
-<img src="/images/Masselink-edit.jpg" alt="alt text" width="300px" height="400px"/>
+<img src="/images/Masselink-edit.jpg" alt="photo" width="300px" height="400px"/>
 
->I'm a **GIS developer** at [Vulcan Technology](http://www.vulcan.com/technology), and a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org). I enjoy working on OpenStreetMap, open source software, and Python programming.
 
-* Email: [jmasselink@gmail.com](mailto:christyheaton@gmail.com)
+I'm a **GIS developer** at [Vulcan Technology](http://www.vulcan.com/technology) where I work on geospatial data and tools for conservation technology projects.
+I am a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org). 
+I enjoy working on OpenStreetMap, open source software, and Python programming.
+
+* e-mail: [jmasselink@gmail.com](mailto:jmasselink@gmail.com)
 * GitHub: [jmasselink](http://github.com/jmasselink)
 * Twitter: [@j_masselink](http://twitter.com/j_masselink)
 * LinkedIn: [jmasselink](https://www.linkedin.com/in/jmasselink)
@@ -21,5 +24,6 @@ Hi, I'm **Joel**.
 
 
 Here are a few Leaflet maps that I'm working on:
+
 * [example leaflet map](/maps/leaflet-map.html)
 * [South Luangwa map](/maps/SLuangwa-map.html)
