@@ -6,7 +6,7 @@ body {
     color:#555;
 }
 nav {
-    position: fixed;
+    position:fixed;
     left:0; top:0;
     height:auto;
     width:100%;
