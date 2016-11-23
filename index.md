@@ -5,7 +5,7 @@ permalink: /
 layout: default
 ---
 
-###Hi, I'm Joel###.
+Hi, I'm Joel.
 
 [comment]:![joelm](/images/Masselink-edit.jpg)
 <img src="/images/Masselink-edit.jpg" alt="alt text" width="300px" height="400px"/>
@@ -15,6 +15,7 @@ layout: default
 >I enjoy working on OpenStreetMap, open source software, and Python programming.
 
 Here are a few ways to get in touch with me:
+
 * e-mail: [jmasselink@gmail.com](mailto:jmasselink@gmail.com)
 * GitHub: [jmasselink](http://github.com/jmasselink)
 * Twitter: [@j_masselink](http://twitter.com/j_masselink)
@@ -23,6 +24,6 @@ Here are a few ways to get in touch with me:
     -  here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
 
 
-####here are a few Leaflet maps that I'm working on:####
+here are a few Leaflet maps that I'm working on:
 * [example leaflet map](/maps/leaflet-map.html)
 * [South Luangwa map](/maps/SLuangwa-map.html)
