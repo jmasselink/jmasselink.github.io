@@ -25,9 +25,9 @@
 	            // map_id vjoelm.eb99e04e
 		}).addTo(mymap);
 
-		var sites = L.geojson("/maps/geojson/BushcampCo-sites.geojson") ///.addTo(mymap);
+		var sites = L.geojson("/maps/geojson/BushcampCo-sites.geojson").addTo(mymap);
 
-		mymap.addLayer(sites)
+		mymap.addData(sites)
 
 	</script>
 </body>
