@@ -1,7 +1,7 @@
 ---
 title: joel
 weight: 1
-permalink: /
+permalink: /main.css
 layout: default
 ---
 
@@ -10,9 +10,9 @@ Hi, I'm Joel.
 [comment]:![joelm](/images/Masselink-edit.jpg)
 <img src="/images/Masselink-edit.jpg" alt="alt text" width="300px" height="400px"/>
 
->I'm a **GIS developer** at [Vulcan Technology](http://www.vulcan.com/technology) where I work on geospatial data and tools for conservation technology projects.
->I am a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org). 
->I enjoy working on OpenStreetMap, open source software, and Python programming.
+>I'm a **GIS developer** at [Vulcan Technology](http://www.vulcan.com/technology) where I work on geospatial data  for conservation technology projects.
+>I am a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org).
+>I enjoy working on OpenStreetMap, Python programming, and Google Earth Engine.
 
 Here are a few ways to get in touch with me:
 
