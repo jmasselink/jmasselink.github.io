@@ -24,6 +24,7 @@ Here are a few ways to get in touch with me:
     -  here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
 
 
-here are a few Leaflet maps that I'm working on:
+Here are a few Leaflet maps that I'm working on:
+
 * [example leaflet map](/maps/leaflet-map.html)
 * [South Luangwa map](/maps/SLuangwa-map.html)
