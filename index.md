@@ -12,7 +12,7 @@ Hi, I'm Joel.
 
 >I'm a **GIS developer** at [Vulcan Technology](http://www.vulcan.com/technology) where I work on geospatial data and tools for conservation technology projects.
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org).
->I enjoy working on OpenStreetMap, open source software, and Python programming.
+>I enjoy working on Humanitarian OpenStreetMap projects, open source GIS, and Python programming.
 
 Here are a few ways to get in touch with me:
 
@@ -29,5 +29,8 @@ Here are a few Leaflet maps that I'm working on:
 * [example leaflet map](/maps/leaflet-map.html)
 * [South Luangwa map](/maps/SLuangwa-map.html)
 
+**this site written in Markdown for simplicity**
+
 [html version](html-version.html)
-**written in Markdown for simplicity
+
+[resume](resume/resume-edit.md)
