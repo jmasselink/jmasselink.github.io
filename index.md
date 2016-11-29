@@ -29,6 +29,5 @@ Here are a few Leaflet maps that I'm working on:
 * [example leaflet map](/maps/leaflet-map.html)
 * [South Luangwa map](/maps/SLuangwa-map.html)
 
-* [html version](html-version.html)
-
+[html version](html-version.html)
 **written in Markdown for simplicity
