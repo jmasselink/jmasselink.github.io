@@ -13,16 +13,51 @@
 <body>
 	<div id="map"></div>
 	<script>
-		var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
 		});
 
-  		var map = L.map('map', {
+  	var map = L.map('map', {
     			center: [47.6062, -122.3321],
     			zoom: 10
-  		});
+  	});
 
-  		map.addLayer(layer);
+  	map.addLayer(layer);
+
+    var geojson = {
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "Name": "CenturyLink Field"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.33156204223633, 47.59534041769333]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "Name": "Safeco Field"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.33229160308838, 47.59152013273979]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "Name": "Key Arena"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-122.35396385192871, 47.62210352928586]
+    }
+  }]
+}
+
+  L.geoJson(geojson).addTo(map);
+
 	</script>
 </body>
 </html>
