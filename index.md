@@ -28,6 +28,7 @@ Here are a few Leaflet maps that I'm working on:
 
 * [example leaflet map](/maps/leaflet-map.html)
 * [South Luangwa map](/maps/SLuangwa-map.html)
+* [Seattle Leafletjs map](/maps/Seattle-map.html)
 
 **this site written in Markdown for simplicity**
 
