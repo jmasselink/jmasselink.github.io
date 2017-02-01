@@ -18,16 +18,19 @@
 	<div id="mapid" style="width: 1800px; height: 1000px"></div>
 	<script>
 	  var mymap = L.map('mapid').setView([-13.3806, 31.8149], 9);
+		// var marker = L.marker([47.6740, -122.3810]).addTo(mymap);
 
 	        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ', {
 	            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 	            maxZoom: 18,
 	            id: 'mapbox.streets',
 	            accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
+	            // map_id vjoelm.eb99e04e
 		}).addTo(mymap);
 
 		var sites = {
 		"type": "FeatureCollection",
+		// "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 		"features": [
 		{ "type": "Feature", "properties": { "site": "Mfuwe Lodge", "lat": -13.07880833, "lon": 31.79045278 }, "geometry": { "type": "Point", "coordinates": [ 31.790453, -13.078808 ] } },
 		{ "type": "Feature", "properties": { "site": "Kuyenda Bushcamp ", "lat": -13.18998889, "lon": 31.67608333 }, "geometry": { "type": "Point", "coordinates": [ 31.676083, -13.189989 ] } },

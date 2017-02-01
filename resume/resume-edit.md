@@ -1,17 +1,8 @@
 ---
+layout: event
 title: Joel Masselink resume
 lat: 47.651737
 lng: -122.307540
-weight: 1
-permalink: /
-layout: default
----
-
-I'm a **GIS developer** at [Vulcan Technology](http://www.vulcan.com/technology) where I work on geospatial data and tools for conservation technology projects.
-I am a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org).
-I enjoy working on Humanitarian OpenStreetMap projects, open source GIS, and Python programming.
-
-
   -
     type: time
     title: 8:30 AM | Doors Open
