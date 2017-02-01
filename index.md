@@ -14,8 +14,6 @@ Hi, I'm Joel.
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org).
 >I enjoy working on Humanitarian OpenStreetMap projects, open source GIS, and Python programming.
 
->Currently using: PostGIS, Python, Mapbox & LeafletJS, QGIS
-
 Here are a few ways to get in touch with me:
 
 * e-mail: [jmasselink@gmail.com](mailto:jmasselink@gmail.com)
