@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>South Luangwa map</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+<!--	<link rel="stylesheet" href="/maps/leaflet/leaflet.css" /> -->
+	<script src="/maps/geojson/BushcampCo-sites.geojson" type="/text/javascript"></script>
+</head>
+<body>
+	<div id="mapid" style="width: 1800px; height: 1000px"></div>
+
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<script>
+	  var mymap = L.map('mapid').setView([-13.3806, 31.8149], 9);
+		// var marker = L.marker([47.6740, -122.3810]).addTo(mymap);
+
+	        L.tileLayer('https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=89baaa5c2c0c4794962923f16c1b5560', {
+	            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+	            maxZoom: 18,
+	            id: 'mapbox.streets',
+	            accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
+	            // map_id vjoelm.eb99e04e
+		}).addTo(mymap);
+
+		// var sites = L.geojson("/maps/geojson/BushcampCo-sites.geojson").addTo(mymap);
+		var sites = {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [31.554108,-13.163737]
+    }
+}
+
+		// L.geoJSON(sites).addTo(map);
+		mymap.addData(sites)
+
+	</script>
+</body>
+</html>
