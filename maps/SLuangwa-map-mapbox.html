@@ -8,17 +8,27 @@
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
 	<script src='https://api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script>
 	<style>
-		#map {
-			width: 100%;
-			height: 500px;
+		 body { margin:0; padding:0; }
+		#map { width: 100%; height: 500px;}
+		#fitBounds {
+			background-color: #ee8a65;
+			 font-family: Helvetica, Arial, Sans-Serif;
+			 color: #fff;
+			 position: absolute;
+			 top: 1em;
+			 right: 1em;
+			 padding: 0.7em;
+			 border-radius: 0.2em;
+			 cursor: pointer;
 		}
 	</style>
 </head>
 <body>
 	<div id="mapid" style="width: 1800px; height: 1000px"></div>
+<!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<div id='fitBounds' onclick='fit()'>fit to points</div>
 	<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
+	mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var mymap = new mapboxgl.Map({
 				container: 'map', // container id
 				// style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
@@ -55,7 +65,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd
 		map.on('load', function(){
 		    map.addSource('my-geojson', {
 		        "type": "geojson",
-		        "data": geojson
+		        "data": sites
 		    });
 
 		    map.addLayer({
@@ -71,7 +81,6 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd
 		function fit() {
 		    map.fitBounds(bbox, {padding: 20});
 		}
-
 
 		// L.geoJSON(sites).addTo(mymap);
 
