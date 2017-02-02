@@ -27,8 +27,12 @@ Here are a few ways to get in touch with me:
 Here are a few Leaflet maps that I'm working on:
 
 * [example leaflet map](/maps/leaflet-map.html)
-* [South Luangwa map](/maps/SLuangwa-map.html)
+<!-- * [South Luangwa map](/maps/SLuangwa-map.html) -->
 * [Seattle Leafletjs map](/maps/Seattle-map.html)
+
+* [South Luangwa Mapbox](/maps/SLuangwa-map-mapbox.html)
+* [South Luangwa LeafletJS](/maps/SLuangwa-map-leaflet.html)
+
 
 **this site written in Markdown for simplicity**
 
