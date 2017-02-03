@@ -1,0 +1,470 @@
+var markets = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903025,
+        "esite": 0,
+        "code": 903,
+        "name": "Magnolia Farmers Market",
+        "abb_name": "Magnolia Farmers Market",
+        "address": "West McGraw and 33rd Ave West",
+        "zipcode": 98199,
+        "city": "Seattle",
+        "location": "33rd Avenue W & West McGraw Street",
+        "website": "http://www.seattlefarmersmarkets.org",
+        "countyname": "King",
+        "start_date": "6/9/12",
+        "end_date": "9/29/12",
+        "dayofweek": "Saturdays",
+        "type": "other",
+        "starttime": "10:00:00 AM",
+        "endtime": "2:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "FALSE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4000015,
+          47.63959886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903026,
+        "esite": 0,
+        "code": 903,
+        "name": "West Seattle Farmers Market",
+        "abb_name": "West Seattle Farmers Market",
+        "address": "44th Avenue SW & SW Alaska Street",
+        "zipcode": 98116,
+        "city": "Seattle",
+        "location": "California Avenue SW & SW Alaska Street",
+        "website": "http://www.seattlefarmersmarkets.org",
+        "countyname": "King",
+        "start_date": "1/1/12",
+        "end_date": "12/30/12",
+        "dayofweek": "Sundays",
+        "type": "Sunday",
+        "starttime": "10:00:00 AM",
+        "endtime": "2:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3880005,
+          47.5611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903027,
+        "esite": 0,
+        "code": 903,
+        "name": "Ballard Farmers Market",
+        "abb_name": "Ballard Farmers Market",
+        "address": "5300 Ballard Ave NW",
+        "zipcode": 98117,
+        "city": "Seattle",
+        "location": "Ballard Avenue NW between Vernon Place NW & 22nd Avenue NW",
+        "website": "http://ballardfarmersmarket.wordpress.com",
+        "countyname": "King",
+        "start_date": "1/1/12",
+        "end_date": "12/31/12",
+        "dayofweek": "Sundays; year round",
+        "type": "Sunday",
+        "starttime": "10:00:00 AM",
+        "endtime": "3:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3830032,
+          47.66659926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903028,
+        "esite": 0,
+        "code": 903,
+        "name": "Phinney Farmers Market",
+        "abb_name": "Phinney Farmers Market",
+        "address": "67th & Phinney Avenue North",
+        "zipcode": 98105,
+        "city": "Seattle",
+        "location": "Avenue N & N 67th Street",
+        "website": "http://www.seattlefarmersmarkets.org",
+        "countyname": "King",
+        "start_date": "6/1/12",
+        "end_date": "10/5/12",
+        "dayofweek": "Fridays",
+        "type": "other",
+        "starttime": "3:00:00 PM",
+        "endtime": "7:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "FALSE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3550034,
+          47.6778984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903030,
+        "esite": 0,
+        "code": 903,
+        "name": "Pike Place Market",
+        "abb_name": "Pike Place Market",
+        "address": "1531 Western Avenue",
+        "zipcode": 98101,
+        "city": "Seattle",
+        "location": "Pike Place between Pine Street & Virginia Street",
+        "website": "http://www.pikeplacemarket.org",
+        "countyname": "King",
+        "start_date": "1/1/12",
+        "end_date": "12/31/12",
+        "dayofweek": "Monday through Saturday",
+        "type": "other",
+        "starttime": "9:00:00 AM",
+        "endtime": "6:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "FALSE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3410034,
+          47.60860061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903032,
+        "esite": 0,
+        "code": 903,
+        "name": "Pike Place Market Express @ South Lake Union",
+        "abb_name": "Pike Place Market Exp-SLU",
+        "address": "410 Terry Ave N",
+        "zipcode": 98109,
+        "city": "Seattle",
+        "location": "410 Terry Ave North",
+        "website": "http://www.pikeplacemarket.org",
+        "countyname": "King",
+        "start_date": "6/21/12",
+        "end_date": "9/27/12",
+        "dayofweek": "Thursdays",
+        "type": "other",
+        "starttime": "10:30:00 AM",
+        "endtime": "2:30:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "FALSE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.336998,
+          47.62250138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903033,
+        "esite": 0,
+        "code": 903,
+        "name": "Wallingford Farmers Market",
+        "abb_name": "Wallingford Farmers Market",
+        "address": "4649 Sunnyside Avenue North",
+        "zipcode": 98103,
+        "city": "Seattle",
+        "location": "4649 Sunnyside Avenue North",
+        "website": "http://www.wallingfordfarmersmarket.wordpress.com",
+        "countyname": "King",
+        "start_date": "5/30/12",
+        "end_date": "9/26/12",
+        "dayofweek": "Wednesdays",
+        "type": "other",
+        "starttime": "3:30:00 PM",
+        "endtime": "7:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3300018,
+          47.66379928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903034,
+        "esite": 0,
+        "code": 903,
+        "name": "Pike Place Market Express @ Seattle City Hall",
+        "abb_name": "Pike Place Market Exp-Seattle",
+        "address": "600 Fourth Ave",
+        "zipcode": 98101,
+        "city": "Seattle",
+        "location": "City Hall Plaza between Cherry & James Streets",
+        "website": "http://www.pikeplacemarket.org",
+        "countyname": "King",
+        "start_date": "6/19/12",
+        "end_date": "9/25/12",
+        "dayofweek": "Tuesdays",
+        "type": "other",
+        "starttime": "10:00:00 AM",
+        "endtime": "2:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "FALSE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3300018,
+          47.60380174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903037,
+        "esite": 0,
+        "code": 903,
+        "name": "Broadway Sunday Farmers Market",
+        "abb_name": "Broadway Sunday Farmers Market",
+        "address": "Broadway and Pine",
+        "zipcode": 98102,
+        "city": "Seattle",
+        "location": "Broadway and Pine",
+        "website": "http://www.seattlefarmersmarkets.org",
+        "countyname": "King",
+        "start_date": "4/22/12",
+        "end_date": "12/23/12",
+        "dayofweek": "Sundays",
+        "type": "Sunday",
+        "starttime": "11:00:00 AM",
+        "endtime": "3:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3209991,
+          47.62120056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903038,
+        "esite": 0,
+        "code": 903,
+        "name": "University District Farmers Market",
+        "abb_name": "University District Farmers Market",
+        "address": "1350 NE 50th St",
+        "zipcode": 98105,
+        "city": "Seattle",
+        "location": "Corner of 50th & Unviersity Way NE",
+        "website": "http://www.seattlefarmersmarkets.org",
+        "countyname": "King",
+        "start_date": "1/1/12",
+        "end_date": "12/29/12",
+        "dayofweek": "Saturdays year-round",
+        "type": "other",
+        "starttime": "9:00:00 AM",
+        "endtime": "2:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130035,
+          47.66469956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903040,
+        "esite": 0,
+        "code": 903,
+        "name": "Lake City Farmers Market",
+        "abb_name": "Lake City Farmers Market",
+        "address": "12528 28th Ave NE",
+        "zipcode": 98125,
+        "city": "Seattle",
+        "location": "125th Street and 28th Ave NE",
+        "website": "http://www.seattlefarmersmarkets.org",
+        "countyname": "King",
+        "start_date": "6/14/12",
+        "end_date": "10/11/12",
+        "dayofweek": "Thursdays",
+        "type": "other",
+        "starttime": "3:00:00 PM",
+        "endtime": "7:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2979965,
+          47.71960068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903041,
+        "esite": 0,
+        "code": 903,
+        "name": "Madrona Farmers Market",
+        "abb_name": "Madrona Farmers Market",
+        "address": "1186 Martin Luther King Jr. Way",
+        "zipcode": 98122,
+        "city": "Seattle",
+        "location": "1126 Martin Luther King Jr. Way",
+        "website": "http://madronafarmersmarket.wordpress.com/",
+        "countyname": "King",
+        "start_date": "5/18/12",
+        "end_date": "9/28/12",
+        "dayofweek": "Fridays",
+        "type": "other",
+        "starttime": "3:00:00 PM",
+        "endtime": "7:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2959976,
+          47.61209869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903069,
+        "esite": 0,
+        "code": 903,
+        "name": "Columbia City Farmers Market",
+        "abb_name": "Columbia City Farmers Market",
+        "address": "37th Avenue South & S. Edmunds St.",
+        "zipcode": 98118,
+        "city": "Seattle",
+        "location": "37th Avenue South & S. Edmunds St.",
+        "website": "http://www.seattlefarmersmarkets.org",
+        "countyname": "King",
+        "start_date": "5/2/12",
+        "end_date": "10/17/12",
+        "dayofweek": "Wednesdays",
+        "type": "other",
+        "starttime": "3:00:00 PM",
+        "endtime": "7:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "TRUE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.285889,
+          47.559105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903070,
+        "esite": 0,
+        "code": 903,
+        "name": "Pike Place Market",
+        "abb_name": "Pike Place Market",
+        "address": "Pike Place between Pine & Virginia Street",
+        "zipcode": 98101,
+        "city": "Seattle",
+        "location": "Pike Place between Pine & Virginia Street",
+        "website": "http://www.pikeplacemarket.org",
+        "countyname": "King",
+        "start_date": "1/1/12",
+        "end_date": "12/30/12",
+        "dayofweek": "Sundays",
+        "type": "Sunday",
+        "starttime": "9:00:00 AM",
+        "endtime": "5:00:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "FALSE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.341127,
+          47.608603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": 903076,
+        "esite": 0,
+        "code": 903,
+        "name": "Queen Anne Farmers Market",
+        "abb_name": "Queen Anne Farmers Market",
+        "address": "Crockett Street W & Queen Anne Ave N",
+        "zipcode": 98119,
+        "city": "Seattle",
+        "location": "Crockett Street W & Queen Anne Ave N",
+        "website": "http://www.qafma.net",
+        "countyname": "King",
+        "start_date": "6/7/12",
+        "end_date": "10/11/12",
+        "dayofweek": "Thursdays",
+        "type": "other",
+        "starttime": "3:00:00 PM",
+        "endtime": "7:30:00 PM",
+        "creditdebit": "FALSE",
+        "ebtfdstamp": "FALSE\r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.35675,
+          47.63652
+        ]
+      }
+    }
+  ]
+}
