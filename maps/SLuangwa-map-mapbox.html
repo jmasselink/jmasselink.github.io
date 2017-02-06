@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>South Luangwa</title>
+	<title>Mapbox GL JS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
@@ -36,14 +36,6 @@
 				center: [-13.3806, 31.8149], // map center
 				zoom: 9 // starting zoom;
 		});
-	  //       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ', {
-	  //           attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-	  //           maxZoom: 18,
-	  //           id: 'mapbox.streets',
-	  //           accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
-	  //           // map_id vjoelm.eb99e04e
-		// }).addTo(mymap);
-
 
 		var sites = {
 		"type": "FeatureCollection",
@@ -60,7 +52,7 @@
 		]
 		}
 
-		var bbox = turf.extent(sites);
+		// var bbox = turf.extent(sites); //not sure TurfJS is compatiable w/ mapbox-gl-js
 
 		map.on('load', function(){
 		    map.addSource('my-geojson', {
@@ -81,8 +73,6 @@
 		function fit() {
 		    map.fitBounds(bbox, {padding: 20});
 		}
-
-		// L.geoJSON(sites).addTo(mymap);
 
 	</script>
 </body>

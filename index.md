@@ -33,6 +33,7 @@ Here are a few Leaflet maps that I'm working on:
 
 * [South Luangwa Mapbox](/maps/SLuangwa-map-mapbox.html)
 * [South Luangwa LeafletJS](/maps/SLuangwa-map-leaflet.html)
+* [South Luangwa thunderforest](/maps/SLuangwa-map-thunderforest.html)
 
 
 **this site written in Markdown for simplicity**
