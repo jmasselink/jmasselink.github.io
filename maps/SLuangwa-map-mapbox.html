@@ -75,11 +75,11 @@
 		markers.features.forEach(function(feature) {
 		    bounds.extend(feature.geometry.coordinates);
 		});
-		map.fitBounds(bounds);
+		map.fitBounds(bounds, { padding: '100' });
 
-		function fit() {
-		    map.fitBounds(bbox, {padding: 20});
-		}
+		// function fit() {
+		//     map.fitBounds(bbox, {padding: 20});
+		// }
 
 	</script>
 </body>
