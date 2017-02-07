@@ -70,6 +70,13 @@
 		    });
 		});
 
+		// added from http://stackoverflow.com/questions/35586360/mapbox-gl-js-getbounds-fitbounds
+		var bounds = new mapboxgl.LngLatBounds();
+		markers.features.forEach(function(feature) {
+		    bounds.extend(feature.geometry.coordinates);
+		});
+		map.fitBounds(bounds);
+
 		function fit() {
 		    map.fitBounds(bbox, {padding: 20});
 		}
