@@ -1,5 +1,5 @@
 ---
-title: joel
+title: Joel's set
 weight: 1
 permalink: /
 layout: default
@@ -29,10 +29,12 @@ Here are a few Leaflet maps that I'm working on:
 
 * [example leaflet map](/maps/leaflet-map.html)
 <!-- * [South Luangwa map](/maps/SLuangwa-map.html) -->
-* [Seattle Leafletjs map](/maps/Seattle-map.html)
+* [Seattle leafletjs map](/maps/Seattle-map.html)
+* [Seattle thunderforest map](/maps/survive-sound-thunderforest.html)
 
-* [South Luangwa Mapbox](/maps/SLuangwa-map-mapbox.html)
-* [South Luangwa LeafletJS](/maps/SLuangwa-map-leaflet.html)
+* [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html)
+* [South Luangwa leafletjs map](/maps/SLuangwa-map-leaflet.html)
+* [South Luangwa thunderforest map](/maps/SLuangwa-map-leaflet.html)
 
 
 **this site written in Markdown for simplicity**
