@@ -22,7 +22,7 @@ Here are a few ways to get in touch with me:
 * LinkedIn:       [jmasselink](https://www.linkedin.com/in/jmasselink)
 * OpenStreetMap:  [mbela](http://www.openstreetmap.org/user/mbela)  
 
-    -  here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
+    ->  here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
 
 
 Here are a few Leaflet maps that I'm working on:
