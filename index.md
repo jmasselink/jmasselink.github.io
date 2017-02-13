@@ -1,5 +1,5 @@
 ---
-title: Joel's set
+title: Joel's site
 weight: 1
 permalink: /
 layout: default
@@ -22,23 +22,22 @@ Here are a few ways to get in touch with me:
 * LinkedIn:       [jmasselink](https://www.linkedin.com/in/jmasselink)
 * OpenStreetMap:  [mbela](http://www.openstreetmap.org/user/mbela)  
 
-    -  here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
+        -  here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
 
 
 Here are a few Leaflet maps that I'm working on:
 
 * [example leaflet map](/maps/leaflet-map.html)
-<!-- * [South Luangwa map](/maps/SLuangwa-map.html) -->
-* [Seattle leafletjs map](/maps/Seattle-map.html)
+<!-- * [Seattle leafletjs map](/maps/Seattle-map.html) -->
 * [Seattle thunderforest map](/maps/survive-sound-thunderforest.html)
 
-* [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html)
+<!-- * [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html) -->
 * [South Luangwa leafletjs map](/maps/SLuangwa-map-leaflet.html)
-* [South Luangwa thunderforest map](/maps/SLuangwa-map-leaflet.html)
+* [South Luangwa thunderforest map](/maps/SLuangwa-map-thunderforest.html)
 
 
 **this site written in Markdown for simplicity**
 
 [html version](html-version.html)
 
-[resume](resume/resume-edit.md)
+<!-- [resume](resume/resume-edit.md) -->
