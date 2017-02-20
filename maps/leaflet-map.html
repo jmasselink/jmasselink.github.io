@@ -3,12 +3,12 @@
 <head>
 	<title>Seattle Leaflet map</title>
 	<meta charset="utf-8" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 </head>
 <body>
-	<div id="mapid" style="width: 1800px; height: 1000px"></div>
+	<!-- <div id="mapid" style="width: 1800px; height: 1000px"></div> -->
+	<div id="mapid" style="width: 100%; height: 100%"></div>
 
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 	<script>
@@ -16,7 +16,7 @@
 			maxZoom: 18,
 			minZoom: 10,
 			maxBounds: [//southwest
-				[40, -130],
+				[45, -125],
 				//northeast
 				[50, -120]
 			],

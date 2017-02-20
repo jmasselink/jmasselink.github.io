@@ -11,6 +11,8 @@ Hi, I am Joel.
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.org) and [Society for Conservation GIS](http://scgis.org).
 >I enjoy working on Humanitarian OpenStreetMap projects, open source GIS, and Python programming.
 
+>Here is my [resume](resume/resume.md) for more detail about my career as a GIS professional.
+
 >In my spare time, I am a volunteer board member for [Tusubira](http://www.tusubira.org), a nonprofit which supports education and women's empowerment in eastern Uganda.
 
 >Outside of work, I like to travel, read, exercise, and watch sports.
@@ -37,11 +39,9 @@ Here are a few Leaflet maps that I'm working on:
 * [Seattle *thunderforest* map](/maps/survive-sound-thunderforest.html)
 <!-- * [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html) -->
 * [South Luangwa *leafletjs* map](/maps/SLuangwa-map-leaflet.html)
-* [South Luangwa *thunderforest* map](/maps/SLuangwa-map-thunderforest.html)
+* [South Luangwa *thunderforest* map](/maps/SLuangwa-map-thunderforest.html)<br>
 
 
 **this site written in Markdown for simplicity**
 
 <!-- [html version](html-version.html) -->
-
-[resume](resume/resume.md) -->
