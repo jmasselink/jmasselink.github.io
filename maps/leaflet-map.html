@@ -3,25 +3,34 @@
 <head>
 	<title>Seattle Leaflet map</title>
 	<meta charset="utf-8" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 </head>
 <body>
 	<div id="mapid" style="width: 1800px; height: 1000px"></div>
-
-	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 	<script>
-	        var mymap = L.map('mapid').setView([47.67, -122.38], 9);
+	  var mymap = L.map('mapid').setView([47.67, -122.38], 11);
+		// var mymap = L.map('mapid'), {
+		// 	center: [47.67, -122.38],
+		// 	zoom: 11
+		// // 	maxBounds: ([40, -130],
+    // // [50, -120])
+		}
+
 		var marker = L.marker([47.6740, -122.3810]).addTo(mymap);
 
-	        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ', {
-	            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-	            maxZoom: 18,
-	            id: 'mapbox.streets',
-	            accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
-	            // map_id vjoelm.eb99e04e
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
+        // map_id vjoelm.eb99e04e
 		}).addTo(mymap);
+
+// added max bounds to constrain map viewport
+		// setMaxBounds()
 
 	</script>
 </body>
