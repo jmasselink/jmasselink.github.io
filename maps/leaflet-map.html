@@ -14,14 +14,13 @@
 	<script>
 	  var mymap = L.map('mapid',{
 			maxZoom: 18,
-			minZoom: 12,
-			maxBounds: [
-				//southwest
+			minZoom: 10,
+			maxBounds: [//southwest
 				[40, -130],
 				//northeast
 				[50, -120]
-			],	
-		}).setView([47.67, -122.38], 15);
+			],
+		}).setView([47.67, -122.38], 13);
 
 		var marker = L.marker([47.6740, -122.3810]).addTo(mymap);
 		marker.bindPopup("This is where I live!").openPopup();
