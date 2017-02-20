@@ -35,7 +35,7 @@ Here are a few ways to get in touch with me:
 Here are a few Leaflet maps that I'm working on:
 
 <!-- * [example leaflet map](/maps/leaflet-map.html) -->
-<!-- * [Seattle leafletjs map](/maps/Seattle-map.html) -->
+* [Seattle farmers' market *leafletjs* map](/maps/Seattle-markets-map.html)
 * [Seattle *thunderforest* map](/maps/survive-sound-thunderforest.html)
 <!-- * [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html) -->
 * [South Luangwa *leafletjs* map](/maps/SLuangwa-map-leaflet.html)
