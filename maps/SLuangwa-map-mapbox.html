@@ -24,17 +24,22 @@
 	</style>
 </head>
 <body>
-	<div id="mapid" style="width: 1800px; height: 1000px"></div>
+	<div id="map" style="width: 1800px; height: 1000px"></div>
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
-	<div id='fitBounds' onclick='fit()'>fit to points</div>
+	<!-- <div id='fitBounds' onclick='fit()'>fit to points</div> -->
 	<script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var mymap = new mapboxgl.Map({
 				container: 'map', // container id
-				// style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
 				style: 'mapbox://styles/vjoelm/cityu41cn00dm2inzy1hg67vt', //stylesheet location
+				maxZoom: 18,
+				minZoom: 10,
+				fitBounds:[
+					[-13.751391, 30.325012]//southwest,
+					[-12.319878, 32.938385]//northeast,
+				],
 				center: [-13.3806, 31.8149], // map center
-				zoom: 9 // starting zoom;
+				zoom: 12 // starting zoom;
 		});
 
 		var sites = {
