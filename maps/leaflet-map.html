@@ -6,26 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 	<style>
-		div mapid {
-			width: 100%;
-			height: 100%;
-		}
+		body {
+          padding: 0;
+          margin: 0;
+    }
+    html, body, #map {
+          height: 100%;
+          width: 100%;
+      }
 	</style>
 </head>
 <body>
-	<!-- <div id="mapid" style="width: 1800px; height: 1000px"></div> -->
-	<!-- <div id="mapid" style="width: 1800px; height: 1000px"></div> -->
-	<div id="mapid" style="width: 100%; height: 100%"></div>
+	<div id="map"></div>
 
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 	<script>
-	  var mymap = L.map('mapid',{
+	  var mymap = L.map('map',{
 			maxZoom: 18,
 			minZoom: 10,
-			maxBounds: [//southwest
-				[45, -125],
-				//northeast
-				[50, -120]
+			maxBounds: [
+				[45, -125]//southwest,
+				[50, -120]//northeast
 			],
 		}).setView([47.67, -122.38], 13);
 
