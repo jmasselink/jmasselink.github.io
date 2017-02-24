@@ -1,0 +1,31 @@
+var landmarks = {
+"type": "FeatureCollection",
+"features": [{
+"type": "Feature",
+"properties": {
+  "Name": "CenturyLink Field"
+},
+"geometry": {
+  "type": "Point",
+  "coordinates": [-122.33156204223633, 47.59534041769333]
+}
+}, {
+"type": "Feature",
+"properties": {
+  "Name": "Safeco Field"
+},
+"geometry": {
+  "type": "Point",
+  "coordinates": [-122.33229160308838, 47.59152013273979]
+}
+}, {
+"type": "Feature",
+"properties": {
+  "Name": "Key Arena"
+},
+"geometry": {
+  "type": "Point",
+  "coordinates": [-122.35396385192871, 47.62210352928586]
+}
+}]
+}

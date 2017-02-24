@@ -5,28 +5,34 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<!-- <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script> -->
 	<!-- <script src="geojson/BushcampCo-sites.geojson" type="text/javascript"></script> -->
-<style>
-	#map {
-		width: 100%;
-		height: 500px;
-	}
-</style>
+	<style>
+    html, body, #map {
+          height: 100%;
+          width: 100%;
+					padding: 5;
+          margin: 0;
+      }
+	</style>
 </head>
-
 <body>
 	<div id="map"></div>
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 	<script>
-		var map = L.map('map').setView([-13.3806, 31.8149], 9);;
+		var mymap = L.map('map',{
+			maxZoom: 18,
+			minZoom: 8,
+		});.setView([-13.3806, 31.8149], 9);
 
 		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ', {
 					attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 					maxZoom: 18,
 					id: 'mapbox.streets',
 					accessToken: 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ';
-		})addTo(map);
+		}).addTo(mymap);
 
+		// mymap.addLayer(layer);
 		// var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 		// attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://carto.com/attributions">CARTO</a>'
 		// });
@@ -39,21 +45,21 @@
 		// map.addLayer(layer);
 		// map.setView([-13.3806, 31.8149], 9);
 
-		var sites = {
-		"type": "FeatureCollection",
-		"features": [
-		{ "type": "Feature", "properties": { "site": "Mfuwe Lodge", "lat": -13.07880833, "lon": 31.79045278 }, "geometry": { "type": "Point", "coordinates": [ 31.790453, -13.078808 ] } },
-		{ "type": "Feature", "properties": { "site": "Kuyenda Bushcamp ", "lat": -13.18998889, "lon": 31.67608333 }, "geometry": { "type": "Point", "coordinates": [ 31.676083, -13.189989 ] } },
-		{ "type": "Feature", "properties": { "site": "Chamilandu Bushcamp ", "lat": -13.31703889, "lon": 31.64206944 }, "geometry": { "type": "Point", "coordinates": [ 31.642069, -13.317039 ] } },
-		{ "type": "Feature", "properties": { "site": "Chindeni Bushcamp ", "lat": -13.36744722, "lon": 31.60683889 }, "geometry": { "type": "Point", "coordinates": [ 31.606839, -13.367447 ] } },
-		{ "type": "Feature", "properties": { "site": "Bilimungwe Bushcamp ", "lat": -13.388175, "lon": 31.56883889 }, "geometry": { "type": "Point", "coordinates": [ 31.568839, -13.388175 ] } },
-		{ "type": "Feature", "properties": { "site": "Kapamba Bushcamp ", "lat": -13.38277222, "lon": 31.52604722 }, "geometry": { "type": "Point", "coordinates": [ 31.526047, -13.382772 ] } },
-		{ "type": "Feature", "properties": { "site": "Zungulila Bushcamp ", "lat": -13.35208889, "lon": 31.51508611 }, "geometry": { "type": "Point", "coordinates": [ 31.515086, -13.352089 ] } },
-		{ "type": "Feature", "properties": { "site": "Kapamba Airstrip ", "lat": -13.37473056, "lon": 31.54125556 }, "geometry": { "type": "Point", "coordinates": [ 31.541256, -13.374731 ] } }
-		]
-		}
-
-		L.geoJSON(sites).addTo(map);
+		// var sites = {
+		// "type": "FeatureCollection",
+		// "features": [
+		// { "type": "Feature", "properties": { "site": "Mfuwe Lodge", "lat": -13.07880833, "lon": 31.79045278 }, "geometry": { "type": "Point", "coordinates": [ 31.790453, -13.078808 ] } },
+		// { "type": "Feature", "properties": { "site": "Kuyenda Bushcamp ", "lat": -13.18998889, "lon": 31.67608333 }, "geometry": { "type": "Point", "coordinates": [ 31.676083, -13.189989 ] } },
+		// { "type": "Feature", "properties": { "site": "Chamilandu Bushcamp ", "lat": -13.31703889, "lon": 31.64206944 }, "geometry": { "type": "Point", "coordinates": [ 31.642069, -13.317039 ] } },
+		// { "type": "Feature", "properties": { "site": "Chindeni Bushcamp ", "lat": -13.36744722, "lon": 31.60683889 }, "geometry": { "type": "Point", "coordinates": [ 31.606839, -13.367447 ] } },
+		// { "type": "Feature", "properties": { "site": "Bilimungwe Bushcamp ", "lat": -13.388175, "lon": 31.56883889 }, "geometry": { "type": "Point", "coordinates": [ 31.568839, -13.388175 ] } },
+		// { "type": "Feature", "properties": { "site": "Kapamba Bushcamp ", "lat": -13.38277222, "lon": 31.52604722 }, "geometry": { "type": "Point", "coordinates": [ 31.526047, -13.382772 ] } },
+		// { "type": "Feature", "properties": { "site": "Zungulila Bushcamp ", "lat": -13.35208889, "lon": 31.51508611 }, "geometry": { "type": "Point", "coordinates": [ 31.515086, -13.352089 ] } },
+		// { "type": "Feature", "properties": { "site": "Kapamba Airstrip ", "lat": -13.37473056, "lon": 31.54125556 }, "geometry": { "type": "Point", "coordinates": [ 31.541256, -13.374731 ] } }
+		// ]
+		// }
+		//
+		// L.geoJSON(sites).addTo(mymap);
 
 	</script>
 </body>

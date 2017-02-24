@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
 	<title>Mapbox GL JS</title>
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
 	<!-- <script src='https://api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script> not sure TurfJS is compatiable w/ mapbox-gl-js -->
-	<script src="geojson/BushcampCo-sites.geojson" type="text/javascript"></script>
+	<!-- <script src="geojson/BushcampCo-sites.geojson" type="text/javascript"></script> -->
 	<style>
 		body { margin:0; padding:5; }
 		#map { width: 100%; height: 100%;}
@@ -44,7 +44,7 @@
 				// 	[-12.319878, 32.938385]//northeast,
 				// ],
 				// doesn't work
-				// setMaxBounds(sites)
+				// setMaxBounds(sites),
 				center: [-13.3806, 31.8149], // map center
 				zoom: 12 // starting zoom;
 		});
