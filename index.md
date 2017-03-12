@@ -3,6 +3,7 @@ title: Joel's site
 weight: 1
 permalink: /
 layout: default
+id: front
 ---
 
 Hi, I am Joel.
