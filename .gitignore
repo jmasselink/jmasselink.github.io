@@ -1,5 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-### Example user template template
 ### Example user template
 
 # IntelliJ project files
@@ -14,3 +13,6 @@ CNAME_backup
 http_server.py
 _layouts
 _posts
+_includes
+_sass
+style.scss
