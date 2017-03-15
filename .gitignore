@@ -11,8 +11,8 @@ list.txt
 Masselink.jpg
 CNAME_backup
 http_server.py
-_layouts
+# _layouts
 _posts
-_includes
-_sass
-style.scss
+# _includes
+# _sass
+# style.scss
