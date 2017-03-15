@@ -1,0 +1,49 @@
+baseurl:
+permalink: /:title
+url: "http://joelmasselink.com"
+prose:
+  rooturl: '_posts/blog'
+  siteurl: 'http://joelmasselink.com'
+  media: 'img'
+  metadata:
+    _posts/blog:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog-post"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "/YYYY/MM/sticky-title"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Full author name"
+      - name: "twitter"
+        field:
+          element: "text"
+          label: "Twitter handle, enter without @"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL, start with http://, image should be 600px or more wide"
+      - name: "comments"
+        field:
+          element: "select"
+          options:
+            - name: "Yes"
+              value: "true"
+            - name: 'No'
+              value: "false"
+          placeholder: yes
+          label: "Comments"
