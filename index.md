@@ -1,5 +1,5 @@
 ---
-title: Joel's site
+##title: Joel's site
 weight: 1
 permalink: /
 layout: default
