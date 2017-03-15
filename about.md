@@ -1,8 +1,7 @@
 ---
-weight: 1
-permalink: /
-layout: default
-id: front
+layout: page
+title: About
+permalink: /about/
 ---
 
 >Hi there! I am a GIS developer at [**Vulcan Technology**](http://www.vulcan.com/technology) in [Seattle, Washington](/maps/leaflet-map.html) where I work on geospatial data and tools for cutting-edge conservation technology projects.
