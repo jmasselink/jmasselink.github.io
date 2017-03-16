@@ -1,0 +1,83 @@
+var landmarks = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Pike Place Market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34061181545256,
+          47.6086188027593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Capitol Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.90462672710417,
+          47.03578589792354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tacoma Narrows Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.55098819732665,
+          47.26848451837418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Hood Canal Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62378334999083,
+          47.859490508583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Seattle Needle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.34930753707884,
+          47.62048004966108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Olympic Mountains"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.55636596679688,
+          47.8094654494779
+        ]
+      }
+    }
+  ]
+}
