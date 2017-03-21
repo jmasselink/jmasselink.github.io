@@ -4,10 +4,10 @@
 	<title>Mapbox GL JS</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
-	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
 	<!-- <script src='https://api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script> not sure TurfJS is compatiable w/ mapbox-gl-js -->
-	<!-- <script src="geojson/BushcampCo-sites.geojson" type="text/javascript"></script> -->
+	<script src="geojson/BushcampCo-sites.geojson" type="text/javascript"></script>
 	<style>
 		body { margin:0; padding:5; }
 		#map { width: 100%; height: 100%;}
@@ -27,17 +27,19 @@
 
 <body>
 
-	<div id="mapid" style="width: 100%; height: 100%"></div>
+	<div id="map" style="width: 100%; height: 100%"></div>
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<div id='fitBounds' onclick='fit()'>fit to points</div>
 	<script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var map = new mapboxgl.Map({
-				container: 'mapid', // container id
-				style: 'mapbox://styles/vjoelm/cityu41cn00dm2inzy1hg67vt', //stylesheet location
-				hash: true,
-				// maxZoom: 18,
-				// minZoom: 10,
+				container: 'map', // container id
+				style: 'mapbox://styles/vjoelm/ciz0fdk7x00122spdjkeouazr', //stylesheet location
+				// style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
+				hash: true, //hash location
+				maxZoom: 12,
+				minZoom: 8,
+				interactive: true,
 				//not working
 				// fitBounds:[
 				// 	[-13.751391, 30.325012]//southwest,
@@ -46,22 +48,22 @@
 				// doesn't work
 				// setMaxBounds(sites),
 				center: [-13.3806, 31.8149], // map center
-				zoom: 12 // starting zoom;
+				zoom: 8 // starting zoom;
 		});
 
-		var sites = {
-		"type": "FeatureCollection",
-		"features": [
-		{ "type": "Feature", "properties": { "site": "Mfuwe Lodge", "lat": -13.07880833, "lon": 31.79045278 }, "geometry": { "type": "Point", "coordinates": [ 31.790453, -13.078808 ] } },
-		{ "type": "Feature", "properties": { "site": "Kuyenda Bushcamp ", "lat": -13.18998889, "lon": 31.67608333 }, "geometry": { "type": "Point", "coordinates": [ 31.676083, -13.189989 ] } },
-		{ "type": "Feature", "properties": { "site": "Chamilandu Bushcamp ", "lat": -13.31703889, "lon": 31.64206944 }, "geometry": { "type": "Point", "coordinates": [ 31.642069, -13.317039 ] } },
-		{ "type": "Feature", "properties": { "site": "Chindeni Bushcamp ", "lat": -13.36744722, "lon": 31.60683889 }, "geometry": { "type": "Point", "coordinates": [ 31.606839, -13.367447 ] } },
-		{ "type": "Feature", "properties": { "site": "Bilimungwe Bushcamp ", "lat": -13.388175, "lon": 31.56883889 }, "geometry": { "type": "Point", "coordinates": [ 31.568839, -13.388175 ] } },
-		{ "type": "Feature", "properties": { "site": "Kapamba Bushcamp ", "lat": -13.38277222, "lon": 31.52604722 }, "geometry": { "type": "Point", "coordinates": [ 31.526047, -13.382772 ] } },
-		{ "type": "Feature", "properties": { "site": "Zungulila Bushcamp ", "lat": -13.35208889, "lon": 31.51508611 }, "geometry": { "type": "Point", "coordinates": [ 31.515086, -13.352089 ] } },
-		{ "type": "Feature", "properties": { "site": "Kapamba Airstrip ", "lat": -13.37473056, "lon": 31.54125556 }, "geometry": { "type": "Point", "coordinates": [ 31.541256, -13.374731 ] } }
-		]
-		}
+		// var sites = {
+		// "type": "FeatureCollection",
+		// "features": [
+		// { "type": "Feature", "properties": { "site": "Mfuwe Lodge", "lat": -13.07880833, "lon": 31.79045278 }, "geometry": { "type": "Point", "coordinates": [ 31.790453, -13.078808 ] } },
+		// { "type": "Feature", "properties": { "site": "Kuyenda Bushcamp ", "lat": -13.18998889, "lon": 31.67608333 }, "geometry": { "type": "Point", "coordinates": [ 31.676083, -13.189989 ] } },
+		// { "type": "Feature", "properties": { "site": "Chamilandu Bushcamp ", "lat": -13.31703889, "lon": 31.64206944 }, "geometry": { "type": "Point", "coordinates": [ 31.642069, -13.317039 ] } },
+		// { "type": "Feature", "properties": { "site": "Chindeni Bushcamp ", "lat": -13.36744722, "lon": 31.60683889 }, "geometry": { "type": "Point", "coordinates": [ 31.606839, -13.367447 ] } },
+		// { "type": "Feature", "properties": { "site": "Bilimungwe Bushcamp ", "lat": -13.388175, "lon": 31.56883889 }, "geometry": { "type": "Point", "coordinates": [ 31.568839, -13.388175 ] } },
+		// { "type": "Feature", "properties": { "site": "Kapamba Bushcamp ", "lat": -13.38277222, "lon": 31.52604722 }, "geometry": { "type": "Point", "coordinates": [ 31.526047, -13.382772 ] } },
+		// { "type": "Feature", "properties": { "site": "Zungulila Bushcamp ", "lat": -13.35208889, "lon": 31.51508611 }, "geometry": { "type": "Point", "coordinates": [ 31.515086, -13.352089 ] } },
+		// { "type": "Feature", "properties": { "site": "Kapamba Airstrip ", "lat": -13.37473056, "lon": 31.54125556 }, "geometry": { "type": "Point", "coordinates": [ 31.541256, -13.374731 ] } }
+		// ]
+		// }
 
 
 		// var myGeoJSON = mapbox.addLayer()
@@ -76,30 +78,30 @@
 
 		// var bbox = turf.extent(sites); //not sure TurfJS is compatiable w/ mapbox-gl-js
 
-		map.on('load', function(){
-		    map.addSource('myGeoJSON', {
-		        "type": "geojson",
-		        "data": sites
-						"url": "geojson/BushcampCo-sites.geojson"
-		    });
-
-		    map.addLayer({
-		        "id": "geojsonLayer",
-		        "type": "fill",
-		        "source": "geojson/BushcampCo-sites.geojson",
-		        "paint": {
-		            "fill-color": "#000fff"
-		        }
-		    });
-		});
-
-		// added from http://stackoverflow.com/questions/35586360/mapbox-gl-js-getbounds-fitbounds
-		var bounds = new mapboxgl.LngLatBounds();
-		markers.features.forEach(function(feature) {
-		    bounds.extend(feature.geometry.coordinates);
-		});
-		map.fitBounds(bounds, { padding: '100' });
-
+		// map.on('load', function(){
+		//     map.addSource('myGeoJSON', {
+		//         "type": "geojson",
+		//         "data": sites
+		// 				"url": "geojson/BushcampCo-sites.geojson"
+		//     });
+		//
+		//     map.addLayer({
+		//         "id": "geojsonLayer",
+		//         "type": "fill",
+		//         "source": "geojson/BushcampCo-sites.geojson",
+		//         "paint": {
+		//             "fill-color": "#000fff"
+		//         }
+		//     });
+		// });
+		//
+		// // added from http://stackoverflow.com/questions/35586360/mapbox-gl-js-getbounds-fitbounds
+		// var bounds = new mapboxgl.LngLatBounds();
+		// markers.features.forEach(function(feature) {
+		//     bounds.extend(feature.geometry.coordinates);
+		// });
+		// map.fitBounds(bounds, { padding: '100' });
+		//
 		// function fit() {
 		//     map.fitBounds(bbox, {padding: 20});
 		// }
