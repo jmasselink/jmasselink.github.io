@@ -1,0 +1,31 @@
+---
+layout: default
+category: Blog
+---
+
+<div class='blog-surface'>
+  {% if page.image %}
+  <div class='blog-splash margin2 col8' style='background-image:url({{page.image}});'></div>
+  {% endif %}
+  <div class='blog-post fill-full prose margin2 col8 pad4'>
+
+    <div class='blog-header'>
+      <h1><a href='{{site.baseurl}}{{page.url}}'>{{page.title}}</a></h1>
+      <span class='date'>{{page.date | date:"%b %d %Y"}}</span>
+      <span class='author'>
+      {% if page.twitter %}
+      <a target='blank' href='https://twitter.com/{{page.twitter}}'>{{page.author}}</a>
+      {% elsif page.author_url %}
+      <a target='blank' href='{{page.author_url}}'>{{page.author}}</a>
+      {% else %}
+      {{page.author}}
+      {% endif %}
+      </span>
+    </div>
+
+    {{content}}
+  </div>
+
+</div>
+
+<a class='button col6 margin3 blog-action' href='{{site.baseurl}}/blog/'><span class='icon previous'></span>Back</a>
