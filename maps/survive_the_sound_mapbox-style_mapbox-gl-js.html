@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survive-the-Sound Mapbox GL JS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+	<link rel='stylesheet'href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css'/>
+	<script src="geojson/survive_landmarks.geojson" type="text/javascript"></script>
+	<style>
+    html, body, #map {
+          height: 100%;
+          width: 100%;
+					padding: 5;
+          margin: 0;
+      }
+	</style>
+</head>
+
+<body>
+<style>
+	#fit {
+			display: block;
+			position: relative;
+			margin: 0px auto;
+			width: 50%;
+			height: 40px;
+			padding: 10px;
+			border: none;
+			border-radius: 3px;
+			font-size: 12px;
+			text-align: center;
+			color: #fff;
+			background: #ee8a65;
+	}
+</style>
+<div id="map"></div>
+<br/>
+<button id='fit'>Fit to Puget Sound</button>
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoibG9uZ2xpdmVraW5ncyIsImEiOiJjaXZxc2xjNDQwM3NkMnpyM3hreDNmZ2dmIn0.u0VcZcLu7tjAX4MC7d10Og'
+		var map = new mapboxgl.Map({
+				container: 'map', // container id
+				style: 'mapbox://styles/longlivekings/cj0kex4fp000y2ro121oby6n6', //stylesheet location
+				// hash: true, //hash location
+				maxZoom: 12,
+				minZoom: 6,
+				interactive: true,
+				pitch: 50, //
+				bearing: -40, // fitBounds:[
+				// 	[-13.751391, 30.325012]//southwest,
+				// 	[-12.319878, 32.938385]//northeast,
+				// ],
+				// doesn't work
+				// setMaxBounds(landmarks),
+				center: [-122.8149, 47.7], // map center
+				zoom: 8 // starting zoom;
+		});
+
+
+		document.getElementById('fit').addEventListener('click', function() {
+				map.fitBounds([[
+						-123.5,
+						46.0
+				], [
+						-122.5,
+						49.0
+				]]);
+		});
+
+		// Add zoom and rotation controls to the map.
+		map.addControl(new mapboxgl.NavigationControl());
+		//
+
+// map.on("load", function() {
+// 		map.addSource('land', {
+// 			type: 'geojson',
+// 			data: 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_land.geojson'
+// 		});
+//
+// 		map.addLayer({
+// 			"id": "land",
+// 			"type": "fill",
+// 			"source": "land",
+// 			"paint": {
+// 					"fill-color": "#888888",
+// 					"fill-opacity": 0.4
+// 			},
+// 			"filter": ["==", "$type", "Polygon"]
+// 	});
+// });
+
+		// Leaflet popup function -- convert to Mapbox GL JS
+		// function onEachFeature(feature, layer) {
+		// 			layer.bindPopup("<h2>" + feature.properties.Name + "</h2>");}
+		// L.geoJson(landmarks, {
+		// 			onEachFeature: onEachFeature
+		// 			// pointToLayer: function(features, coordinates)	{
+		// 			// 		return L.circleMarker(coordinates, geojsonMarkerOptions);
+		// }).addTo(map);
+
+	</script>
+</body>
+</html>
