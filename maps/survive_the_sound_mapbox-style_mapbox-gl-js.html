@@ -47,12 +47,8 @@
 				minZoom: 6,
 				interactive: true,
 				pitch: 50, //
-				bearing: -40, // fitBounds:[
-				// 	[-13.751391, 30.325012]//southwest,
-				// 	[-12.319878, 32.938385]//northeast,
-				// ],
+				bearing: -40, // fitBounds:
 				// doesn't work
-				// setMaxBounds(landmarks),
 				center: [-122.8149, 47.7], // map center
 				zoom: 8 // starting zoom;
 		});
@@ -70,34 +66,6 @@
 
 		// Add zoom and rotation controls to the map.
 		map.addControl(new mapboxgl.NavigationControl());
-		//
-
-// map.on("load", function() {
-// 		map.addSource('land', {
-// 			type: 'geojson',
-// 			data: 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_land.geojson'
-// 		});
-//
-// 		map.addLayer({
-// 			"id": "land",
-// 			"type": "fill",
-// 			"source": "land",
-// 			"paint": {
-// 					"fill-color": "#888888",
-// 					"fill-opacity": 0.4
-// 			},
-// 			"filter": ["==", "$type", "Polygon"]
-// 	});
-// });
-
-		// Leaflet popup function -- convert to Mapbox GL JS
-		// function onEachFeature(feature, layer) {
-		// 			layer.bindPopup("<h2>" + feature.properties.Name + "</h2>");}
-		// L.geoJson(landmarks, {
-		// 			onEachFeature: onEachFeature
-		// 			// pointToLayer: function(features, coordinates)	{
-		// 			// 		return L.circleMarker(coordinates, geojsonMarkerOptions);
-		// }).addTo(map);
 
 	</script>
 </body>
