@@ -31,12 +31,13 @@
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<div id='fitBounds' onclick='fit()'>fit to points</div>
 	<script>
-	mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
+		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var map = new mapboxgl.Map({
 				container: 'map', // container id
-				style: 'mapbox://styles/vjoelm/ciz0fdk7x00122spdjkeouazr', //stylesheet location
+				// style: 'mapbox://styles/mapbox/streets-v9',
+			  style: 'mapbox://styles/vjoelm/ciz0fdk7x00122spdjkeouazr', //stylesheet location
 				// style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
-				hash: true, //hash location
+				// hash: true, //hash location
 				maxZoom: 12,
 				minZoom: 8,
 				interactive: true,
@@ -48,7 +49,7 @@
 				// doesn't work
 				// setMaxBounds(sites),
 				center: [-13.3806, 31.8149], // map center
-				zoom: 8 // starting zoom;
+				// zoom: 8 // starting zoom;
 		});
 
 		// var sites = {
