@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survive-the-Sound Mapbox GL JS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+	<link rel='stylesheet'href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css'/>
+	<script src="geojson/survive_landmarks.geojson" type="text/javascript"></script>
+	<script src="geojson/Skokomish-Ocean_route.geojson" type="text/javascript"></script>
+	<style>
+    html, body, #map {
+          height: 100%;
+          width: 100%;
+					padding: 5;
+          margin: 0;
+      }
+	</style>
+</head>
+
+<body>
+<style>
+	#fit {
+			display: block;
+			position: relative;
+			margin: 0px auto;
+			width: 50%;
+			height: 40px;
+			padding: 10px;
+			border: none;
+			border-radius: 3px;
+			font-size: 12px;
+			text-align: center;
+			color: #fff;
+			background: #ee8a65;
+	}
+</style>
+<div id="map"></div>
+<br/>
+<button id='fit'>Fit to Puget Sound</button>
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoibG9uZ2xpdmVraW5ncyIsImEiOiJjaXZxc2xjNDQwM3NkMnpyM3hreDNmZ2dmIn0.u0VcZcLu7tjAX4MC7d10Og'
+		//// to be used only if map is vertical i.e. no pitch/bearing
+		var bounds = [
+			[-125, 46.5], //southwest coordinates
+			[-121.5, 49.0] ////northeast coordinates
+		];
+
+		var map = new mapboxgl.Map({
+				container: 'map', // container id
+				style: 'mapbox://styles/longlivekings/cj0kex4fp000y2ro121oby6n6', //stylesheet location
+				maxZoom: 12,
+				minZoom: 7,
+				interactive: true,
+				center: [-122.8149, 47.7], // map center
+				zoom: 8, // starting zoom;
+				maxBounds: bounds //
+		});
+
+
+		document.getElementById('fit').addEventListener('click', function() {
+			map.fitBounds(bounds);
+		});
+
+		// Add zoom and rotation controls to the map.
+		map.addControl(new mapboxgl.NavigationControl());
+
+///// not working yet
+// add geojson features
+// map.addSource('Skokomish-Ocean_route.geojson',
+// 	type: 'geojson'
+// 	data: 'geojson/Skokomish-Ocean_route.geojson'
+// 	)
+
+
+		// map.on('load', function() {
+		//     map.addSource('survive_landmarks', {
+		//         "type": "geojson",
+		//         // data: "geojson/survive_landmarks.geojson"
+		// 				"data": "geojson/survive_landmarks.geojson"
+		//     });
+		// //
+		// map.addLayer({
+		//     "name": "geojsonLayer",
+		//     "type": "point",
+		//     "source": "survive_landmarks",
+		//     "paint": {
+		// 			"marker-color": "#7e7e7e",
+	  //       "marker-size": "medium",
+	  //       "marker-symbol": ""
+		//     }
+		// });
+
+
+	</script>
+</body>
+</html>
