@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Survive-the-Sound Mapbox GL JS</title>
+	<title>Survive-the-Sound oblique</title> //Mapbox GL JS
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
@@ -53,26 +53,29 @@
 				maxZoom: 12,
 				minZoom: 7,
 				interactive: true,
-				// pitch: 55, //
-				// bearing: -10, // fitBounds:
+				pitch: 55, //
+				bearing: -10, // fitBounds:
 				center: [-122.8149, 47.7], // map center
 				zoom: 8, // starting zoom;
-				maxBounds: bounds //
+				// maxBounds: bounds //
 		});
 
 
 		document.getElementById('fit').addEventListener('click', function() {
+		// 	map.fitBounds(bounds);
+		// });
+		// // use with pitch + bearing active
 				map.fitBounds([[
 						-123.5,
 						46.0
 				], [
 						-122.5,
 						49.0
-				]]);
-		});
+				]])
+			});
 
 		// Add zoom and rotation controls to the map.
-		map.addControl(new mapboxgl.NavigationControl());
+				map.addControl(new mapboxgl.NavigationControl());
 
 ///// not working yet
 // add geojson features

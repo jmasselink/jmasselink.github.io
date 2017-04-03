@@ -13,7 +13,7 @@ permalink: /about/
 
 >In my spare time, I am a volunteer board member for [**Tusubira**](http://www.tusubira.org), a nonprofit which supports education and women's empowerment in eastern Uganda.
 
->Outside of work, I like to travel, read, exercise, and watch sports.
+>Outside of work, I like to travel, catsit, birdwatch, read, exercise, and watch sports.
 
 [comment]:![joelm](/images/Masselink-edit.jpg)
 <img src="/images/Masselink-edit.jpg" alt="Joel Masselink" width="300px" height="400px"/>

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Welcome to Joel's site!
+title: Welcome - Willkommen - Soyez les bienvenus - Karibu
 ---
 
-Hello World ! This is my very first blog post! Thanks for following my blog, where I will write about whatever it is that I want to write about!.
+Hello! I am starting a blog just for the fun of it. It's my personal blog and therefore consists mostly of my own thought. I will write about whatever it is that I want to write about!.
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
