@@ -36,7 +36,7 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoibG9uZ2xpdmVraW5ncyIsImEiOiJjaXZxc2xjNDQwM3NkMnpyM3hreDNmZ2dmIn0.u0VcZcLu7tjAX4MC7d10Og';
 var start = [-122.8149, 47.7];
 // var middle = [-124, 48.0];
-var end = [-122.8149, 48.3];
+var end = [-123.2, 48.3];
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/longlivekings/cj0kex4fp000y2ro121oby6n6',
@@ -64,8 +64,8 @@ document.getElementById('fly').addEventListener('click', function() {
         // the target, at zoom level 9, and north up.
         center: target,
         zoom: 9,
-        bearing: -80,
-				pitch: 70,
+        bearing: -90,
+				pitch: 80,
         // These options control the flight curve, making it move
         // slowly and zoom out almost completely before starting
         // to pan.
