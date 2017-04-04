@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Survive-the-Sound oblique</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet'/>
-	<style>
-			body { margin:0; padding:0; }
-      #map { position:absolute; top:0; bottom:0; width:100%; }
-	</style>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
 </head>
-
 <body>
+
 <style>
-	#fly {
-			display: block;
-			position: relative;
-			margin: 0px auto;
-			width: 50%;
-			height: 40px;
-			padding: 10px;
-			border: none;
-			border-radius: 3px;
-			font-size: 12px;
-			text-align: center;
-			color: #fff;
-			background: #ee8a65;
-	}
+    #fly {
+        display: block;
+        position: relative;
+        margin: 0px auto;
+        width: 50px;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        background: #ee8a65;
+    }
 </style>
-<div id="map"></div>
+<div id='map'></div>
 <br/>
 <button id='fly'>Fly</button>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoibG9uZ2xpdmVraW5ncyIsImEiOiJjaXZxc2xjNDQwM3NkMnpyM3hreDNmZ2dmIn0.u0VcZcLu7tjAX4MC7d10Og'
-var start = [-121.5, 46.5];
-var end = [-125, 49.0];
+mapboxgl.accessToken = 'pk.eyJ1IjoibG9uZ2xpdmVraW5ncyIsImEiOiJjaXZxc2xjNDQwM3NkMnpyM3hreDNmZ2dmIn0.u0VcZcLu7tjAX4MC7d10Og';
+var start = [-122.8149, 47.7];
+// var middle = [-124, 48.0];
+var end = [-122.8149, 48.5];
 var map = new mapboxgl.Map({
-		container: 'map', // container id
-		style: 'mapbox://styles/longlivekings/cj0kex4fp000y2ro121oby6n6', //stylesheet location
+    container: 'map',
+    style: 'mapbox://styles/longlivekings/cj0kex4fp000y2ro121oby6n6',
+		maxZoom: 12,
+		minZoom: 7,
+		interactive: true,
 		center: start,
-		zoom: 8, // starting zoom;
-		bearing: 60 // fitBounds:
-		// pitch: 55, //
-		// center: start, //[-122.8149, 47.7], // map center
+		pitch: 55,
+		zoom: 8,
+    bearing: -10,
 });
 
-// map.addControl(new mapboxgl.NavigationControl());
-
-var.isAtStart = true;
+var isAtStart = true;
 
 document.getElementById('fly').addEventListener('click', function() {
-			// depending on whether we're currently at point a or b, aim for
-			// point a or b
-			var target = isAtStart ? end : start;
+    // depending on whether we're currently at point a or b, aim for
+    // point a or b
+    var target = isAtStart ? end : start;
 
-			// and now we're at the opposite point
-			isAtStart = !isAtStart;
+    // and now we're at the opposite point
+    isAtStart = !isAtStart;
 
-			map.flyTo({
-					// These options control the ending camera position: centered at
-					// the target, at zoom level 9, and north up.
-					center: target,
-					zoom: 9,
-					bearing: 0,
+    map.flyTo({
+        // These options control the ending camera position: centered at
+        // the target, at zoom level 9, and north up.
+        center: target,
+        zoom: 8,
+        bearing: -80,
+				pitch: 70,
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        speed: 0.2, // make the flying slow
+        curve: 1, // change the speed at which it zooms out
 
-					// These options control the flight curve, making it move
-					// slowly and zoom out almost completely before starting
-					// to pan.
-					speed: 0.2, // make the flying slow
-					curve: 1, // change the speed at which it zooms out
-
-					// This can be any easing function: it takes a number between
-					// 0 and 1 and returns another number between 0 and 1.
-					easing: function (t) {
-							return t;
-				}
-			});
+        // This can be any easing function: it takes a number between
+        // 0 and 1 and returns another number between 0 and 1.
+        easing: function (t) {
+            return t;
+        }
+    });
 });
 </script>
 
