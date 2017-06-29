@@ -9,6 +9,7 @@ Clark Univ (Massachusetts)<br><br>
 **Work**
 >GIS Developer <br>
 Vulcan Technology, 2014 - present
+-- supporting conservation technology projects such as Great Elephant Census and Domain Awareness System
 
 >Principal Consultant <br>
 Earth Logic LLC, 2014 - present
