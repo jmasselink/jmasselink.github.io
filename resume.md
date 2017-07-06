@@ -1,4 +1,5 @@
 >**Joel Masselink**<br>
+***GIS Developer***<br>
 *Seattle, Washington*
 
 **Education**
@@ -7,53 +8,53 @@ Clark Univ (Massachusetts)<br><br>
 >BS, Geographic Science, 2005<br> James Madison Univ (Virginia) <br>
 
 **Work**
->GIS Developer <br>
+>*GIS Developer* <br>
 Vulcan Technology, 2014 - present
 -- supporting conservation technology projects such as Great Elephant Census and Domain Awareness System
 
->Principal Consultant <br>
+>*Principal Consultant*<br>
 Earth Logic LLC, 2014 - present
 
->GIS Coordinator <br>
+>*GIS Coordinator*<br>
 Wildlife Conservation Society - DR Congo program,
 2009 - 2013
 
 **Skills**
 >*desktop GIS*
-- ArcGIS <br>
-- QGIS <br><br>
+- ArcGIS
+- QGIS
 
 >*Web-mapping*
-- Mapbox Studio <br>
-- MapboxJS / Mapbox GL-JS<br>
-- LeafletJS <br><br>
+- Mapbox Studio
+- MapboxJS / Mapbox GL-JS
+- LeafletJS
 
 >*Spatial databases*
-- PostGIS (PostgreSQL) <br>
-- Spatialite (SQLite) / GeoPackages <br>
-- ArcGIS File Geodatabases<br><br>
+- PostGIS (PostgreSQL)
+- Spatialite (SQLite) / GeoPackages
+- ArcGIS Enterprise & File Geodatabases
 
 >*Programming / Scripting*
-- command line utilities (bash, cmd)<br>
-- Python <br>
-- GDAL / OGR <br>
-- JavaScript<br>
-- Git / GitHub / version control<br><br>
+- command line utilities (bash, cmd)
+- Python
+- GDAL / OGR
+- JavaScript
+- Git / GitHub / version control
 
 >*Open data platforms*
-- OpenStreetMap editing (JOSM, iD)<br>
+- OpenStreetMap editing (JOSM, iD)
 - Google Earth Engine JavaScript & Python API
 
 >*Web development*
-- GitHub pages<br>
-- JavaScript / Markdown<br>
+- GitHub pages
+- JavaScript / Markdown
 - WordPress
 
->*Languages spoken*<br>
+>*Languages spoken*
 - conversant in French
 - basic Swahili
 
->*Geographic experience*<br>
+>*Geographic experience*
 - northeast, mid-Atlantic, southeast, Pacific northwest US
 - central Africa (DR Congo)
 - east Africa (Uganda)
