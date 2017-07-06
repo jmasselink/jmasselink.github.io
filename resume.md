@@ -34,21 +34,26 @@ Wildlife Conservation Society - DR Congo program,
 - ArcGIS File Geodatabases<br><br>
 
 >*Programming / Scripting*
-- command line utilities (bash, awk)<br>
+- command line utilities (bash, cmd)<br>
 - Python <br>
 - GDAL / OGR <br>
 - JavaScript<br>
-- Git / GitHub<br><br>
+- Git / GitHub / version control<br><br>
 
->*Open data*
+>*Open data platforms*
 - OpenStreetMap editing (JOSM, iD)<br>
 - Google Earth Engine JavaScript & Python API
 
+>*Web development*
+- GitHub pages<br>
+- JavaScript / Markdown<br>
+- WordPress
+
 >*Languages spoken*<br>
 - conversant in French
-- basic kiSwahili
+- basic Swahili
 
 >*Geographic experience*<br>
 - northeast, mid-Atlantic, southeast, Pacific northwest US
-- central Africa (DR Congo, Congo)
+- central Africa (DR Congo)
 - east Africa (Uganda)
