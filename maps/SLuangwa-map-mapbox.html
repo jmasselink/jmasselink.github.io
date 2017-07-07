@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+	<link rel='stylesheet'href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css'/>
 	<!-- <script src='https://api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script> not sure TurfJS is compatiable w/ mapbox-gl-js -->
 	<script src="geojson/BushcampCo-sites.geojson" type="text/javascript"></script>
 	<style>
@@ -31,14 +31,15 @@
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<div id='fitBounds' onclick='fit()'>fit to points</div>
 	<script>
-	mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
+		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var map = new mapboxgl.Map({
 				container: 'map', // container id
-				style: 'mapbox://styles/vjoelm/ciz0fdk7x00122spdjkeouazr', //stylesheet location
+				// style: 'mapbox://styles/mapbox/streets-v9',
+			  style: 'mapbox://styles/vjoelm/cityu41cn00dm2inzy1hg67vt', //stylesheet location
 				// style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
-				hash: true, //hash location
-				maxZoom: 12,
-				minZoom: 8,
+				// hash: true, //hash location
+				// maxZoom: 12,
+				// minZoom: 8,
 				interactive: true,
 				//not working
 				// fitBounds:[
@@ -47,7 +48,7 @@
 				// ],
 				// doesn't work
 				// setMaxBounds(sites),
-				center: [-13.3806, 31.8149], // map center
+				center: [31.8149, -13.3806], // map center
 				zoom: 8 // starting zoom;
 		});
 

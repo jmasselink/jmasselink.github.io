@@ -9,11 +9,11 @@ permalink: /about/
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.us) and [Society for Conservation GIS](http://scgis.org).
 >I enjoy working on Humanitarian OpenStreetMap projects, open source GIS, and Python programming.
 
->Up to this point in my career, my work relates to geospatial data collection, management, and visualization. I've worked for companies in defense, mining, internationlal development, and conservation sectors. Here is my [resume](resume/resume.md) for more detail about my career as a GIS professional.
+>Up to this point in my career, my work relates to geospatial data collection, management, and visualization. I've worked in the defense, mining, international development, and conservation sectors. Here is my [resume](resume.md) for more details about my career as a GIS professional.
 
 >In my spare time, I am a volunteer board member for [**Tusubira**](http://www.tusubira.org), a nonprofit which supports education and women's empowerment in eastern Uganda.
 
->Outside of work, I like to travel, read, exercise, and watch sports.
+>Outside of work, I like to travel, catsit, birdwatch, read, exercise, and watch sports.
 
 [comment]:![joelm](/images/Masselink-edit.jpg)
 <img src="/images/Masselink-edit.jpg" alt="Joel Masselink" width="300px" height="400px"/>
