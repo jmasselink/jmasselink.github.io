@@ -1,3 +1,8 @@
+---
+layout: page
+title: Resume
+permalink: /resume/
+---
 >**Joel Masselink**<br>
 ***GIS Developer***<br>
 *Seattle, Washington*

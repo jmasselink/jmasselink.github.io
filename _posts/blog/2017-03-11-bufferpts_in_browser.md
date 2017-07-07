@@ -1,10 +1,10 @@
 ---
 layout: blog-post
-category: blog
+category: Blog
 title: "Buffering Points in the Browser"
 author: "Joel Masselink"
 twitter: j_masselink
-permalink: /2017/03/bufferpts_in_browser/
+permalink: /blog/2017/03/bufferpts_in_browser/
 ---
 
 ------------
