@@ -8,4 +8,4 @@ We had a great time - my wife, our friend Lillian, and I made the road trip from
 
 Here's the presentation that I made on Vulcan's signature wildlife conservation project, the **Great Elephant Census**:
 
-<iframe src="//slides.com/joelmasselink/gec/embed" width="100%" height="100%" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//slides.com/joelmasselink/gec/#" width="100%" height="100%" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
