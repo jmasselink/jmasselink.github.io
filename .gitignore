@@ -11,7 +11,7 @@ Masselink.jpg
 CNAME_backup
 http_server.py
 index_backup.md
-_layouts
+# _layouts
 _posts/2014-3-3-Hello-World.md
 _posts/2017-3-11-Hello-World.md
 _posts/blog/qgis.md
