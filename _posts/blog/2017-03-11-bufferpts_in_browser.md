@@ -4,7 +4,8 @@ category: Blog
 title: "Buffering Points in the Browser"
 author: "Joel Masselink"
 twitter: j_masselink
-permalink: /blog/2017/03/bufferpts_in_browser/
+permalink: /blog/
+#2017/03/bufferpts_in_browser/
 ---
 
 Recently I made a few base maps of various-sized buffers around ad hoc points. This type of request is quite common from my colleagues - draw a circle around a given point to understand relationships of *distance*.
