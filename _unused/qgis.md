@@ -1,0 +1,1 @@
+Open-source desktop GIS has never been more powerful, accessible, and capable. In particular, [QGIS](http://www.qgis.org) provides wonderful capabilities for data manipulation, editing, management, and cartography. I use QGIS every day and developers continue to enhance, modernize, and to make this the one desktop GIS software that I cannot do without.
