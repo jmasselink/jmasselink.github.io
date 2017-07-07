@@ -4,7 +4,6 @@ category: blog
 title: "Buffering Points in the Browser"
 author: "Joel Masselink"
 twitter: j_masselink
-image: /images/blogheaders/2017-03-sotmus_dates.jpg
 permalink: /2017/03/bufferpts_in_browser/
 ---
 
@@ -25,7 +24,7 @@ What I came up with is a basic workflow: using two tools together which harness 
 [GitHub](https://www.github.com) Gists supports rendering GeoJSON in the browser.
 
 
-Requirements: 
+Requirements:
 1. Spatial data
 2. Buffer calculation and visualization
 3. Map styles
