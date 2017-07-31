@@ -4,7 +4,11 @@ title: About
 permalink: /about/
 ---
 
->Hi there! I am a GIS developer at [**Vulcan Technology**](http://www.vulcan.com/technology) in [Seattle, Washington](/maps/leaflet-map.html) where I work on geospatial data and tools for cutting-edge conservation technology projects.
+>Hi there! My name is Joel Masselink.
+[comment]:![joelm](/images/Masselink-edit.jpg)
+<img src="/images/Masselink-edit.jpg" alt="Joel Masselink" width="150px" height="200px"/>
+
+I am a GIS developer at [**Vulcan Technology**](http://www.vulcan.com/technology) in [Seattle, Washington](/maps/leaflet-map.html) where I work on geospatial data and tools for cutting-edge conservation technology projects.
 
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.us) and [Society for Conservation GIS](http://scgis.org).
 >I enjoy working on Humanitarian OpenStreetMap projects, open source GIS, and Python programming.
@@ -14,9 +18,6 @@ permalink: /about/
 >In my spare time, I am a volunteer board member for [**Tusubira**](http://www.tusubira.org), a nonprofit which supports education and women's empowerment in eastern Uganda.
 
 >Outside of work, I like to travel, catsit, birdwatch, read, exercise, and watch sports.
-
-[comment]:![joelm](/images/Masselink-edit.jpg)
-<img src="/images/Masselink-edit.jpg" alt="Joel Masselink" width="300px" height="400px"/>
 
 
 Lately, I've enjoyed working on OpenStreetMap and contributing my geographic knowledge to the OSM platform - a free, editable, and usable map of the world.
