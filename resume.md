@@ -3,9 +3,9 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
->**Joel Masselink**<br>
+<!-- >**Joel Masselink**<br>
 ***GIS Developer***<br>
-*Seattle, Washington*
+*Seattle, Washington* -->
 
 **Education**
 >MA, GIS for Development & Environment, 2009<br>
@@ -49,6 +49,7 @@ Wildlife Conservation Society - DR Congo program,
 >*Open data platforms*
 - OpenStreetMap editing (JOSM, iD)
 - Google Earth Engine JavaScript & Python API
+- OpenDataKit
 
 >*Web development*
 - GitHub pages
