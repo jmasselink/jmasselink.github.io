@@ -9,8 +9,10 @@ permalink: /blog/
 ---
 
 Recently I made a few base maps of various-sized buffers around ad hoc points. This type of request is quite common from my colleagues - draw a circle around a given point to understand relationships of *distance*.
-> How many microbreweries are within a 5 mile radius from my home?
-> How many cell towers with 10-km coverage are needed to provide service to a rural county?
+
+<!-- > How many microbreweries are within a 5 mile radius from my home?
+
+> How many cell towers with 10-km coverage are needed to provide service to a rural county? -->
 
 I thought to myself - there must be a tool which allows one to drop a point on a map and see arbitrary distances, and to simply visualize these.
 
