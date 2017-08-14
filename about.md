@@ -15,7 +15,7 @@ permalink: /about/
 
 >Outside of work, I like to travel, catsit, birdwatch, read, exercise, and watch sports.
 
-[comment]:![joelm](/images/Masselink-edit.jpg)
+<!-- [comment]:![joelm](/images/Masselink-edit.jpg) -->
 <img src="/images/Masselink-edit.jpg" alt="Joel Masselink" width="300px" height="400px"/>
 
 
