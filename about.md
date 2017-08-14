@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 >Hi there! My name is Joel Masselink.
-[comment]:![joelm](/images/Masselink-edit.jpg)
+<!-- [comment]:![joelm](/images/Masselink-edit.jpg) -->
 <img src="/images/Masselink-edit.jpg" alt="Joel Masselink" width="150px" height="200px"/>
 
 I am a GIS developer at [**Vulcan Technology**](http://www.vulcan.com/technology) in [Seattle, Washington](/maps/leaflet-map.html) where I work on geospatial data and tools for cutting-edge conservation technology projects.
