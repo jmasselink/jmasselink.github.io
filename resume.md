@@ -49,7 +49,8 @@ Wildlife Conservation Society - DR Congo program,
 >*Open data platforms*
 - OpenStreetMap editing (JOSM, iD)
 - Google Earth Engine JavaScript & Python API
-- OpenDataKit
+- OpenDataKit (ODK) Collect
+- Ushahidi
 
 >*Web development*
 - GitHub pages
@@ -61,6 +62,6 @@ Wildlife Conservation Society - DR Congo program,
 - basic Swahili
 
 >*Geographic experience*
-- northeast, mid-Atlantic, southeast, Pacific northwest US
+- United States: northeast, mid-Atlantic, southeast, Pacific northwest
 - central Africa (DR Congo)
 - east Africa (Uganda)
