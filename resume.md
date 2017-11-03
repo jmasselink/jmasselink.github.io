@@ -9,13 +9,13 @@ permalink: /resume/
 
 **Education**
 >MA, GIS for Development & Environment, 2009<br>
-Clark Univ (Massachusetts)<br><br>
->BS, Geographic Science, 2005<br> James Madison Univ (Virginia) <br>
+Clark Univ. (Massachusetts)<br><br>
+>BS, Geographic Science, 2005<br> James Madison Univ. (Virginia) <br>
 
 **Work**
 >*GIS Developer* <br>
 Vulcan Technology, 2014 - present<br>
-- supporting conservation technology projects such as Great Elephant Census and Domain Awareness System
+- supporting conservation technology projects including Great Elephant Census and Domain Awareness System
 
 >*Principal Consultant*<br>
 Earth Logic LLC, 2014 - present
@@ -25,13 +25,14 @@ Wildlife Conservation Society - DR Congo program,
 2009 - 2013
 
 **Skills**
->*desktop GIS*
+>*desktop GIS/visualization software*
 - ArcGIS
 - QGIS
+- Tableau
 
 >*Web-mapping*
 - Mapbox Studio
-- MapboxJS / Mapbox GL-JS
+- MapboxJS / Mapbox GL JS
 - LeafletJS
 
 >*Spatial databases*
@@ -48,7 +49,7 @@ Wildlife Conservation Society - DR Congo program,
 
 >*Open data platforms*
 - OpenStreetMap editing (JOSM, iD)
-- Google Earth Engine JavaScript & Python API
+- Google Earth Engine JavaScript & Python APIs
 - OpenDataKit (ODK) Collect
 - Ushahidi
 
