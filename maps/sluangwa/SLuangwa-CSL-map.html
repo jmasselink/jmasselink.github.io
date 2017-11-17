@@ -11,12 +11,16 @@
 	<!-- <script src="geojson/slnp_ele_carcasses.geojson" type="text/javascript"></script> -->
 	<style>
 		body { margin:0; padding:5; }
-		#map { width: 100%; height: 100%;}
+		#map {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+		}
 	</style>
 </head>
 <body>
-
-<div id="map" style="width: 100%; height: 100%"></div>
+  <div id="map"</div>
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<!-- <div id='fitBounds' onclick='fit()'>fit to points</div> -->
 	<script>
@@ -29,27 +33,45 @@
 				zoom: 8 // starting zoom;
 		});
 
- map.on('load', function(){
-	 // Add a geojson point source
-	 // Heatmap layers also work with a vector tile source
-	 map.addSource('carcass', {
-		 "type": "geojson",
-		 "data": "./assets/slnp_ele_carcasses.geojson"
-	 });
-	 map.addLayer({
-		 id: 'carcass-heat',
-		 type: 'heatmap',
-		 source: 'carcass',
-		 maxzoom: 15,
-		 paint: {
-			 'heatmap-radius': {
-				 stops: [
-					 [6, 25],
-					 [12, 50]
-					 ]
-			 }
- }
-});
+	 map.on('load', function(){
+		 // Add a geojson point source
+		 // Heatmap layers also work with a vector tile source
+		 map.addSource('carcass', {
+			 type: "geojson",
+			 data: "./assets/slnp_ele_carcasses.geojson"
+		 });
+		 // add heatmap layer here
+		 map.addLayer({
+			 id: 'carcass-heat',
+			 type: 'heatmap',
+			 source: 'carcass',
+			 maxzoom: 15,
+			 paint: {
+				 'heatmap-radius': {
+					 stops: [
+						 [6, 25],
+						 [12, 50]
+						 ]
+				 }
+		 // map.addSource('test_areas', {
+			//  type: "geojson",
+			//  data: "./assets/slnp_test_areas.geojson"
+		 // });
+		 // // add heatmap layer here
+		 // map.addLayer({
+			//  id: 'test_areas',
+			//  type: 'polygon',
+			//  source: 'test_areas',
+			//  maxzoom: 15,
+			//  paint: {
+			// 	 'heatmap-radius': {
+			// 		 stops: [
+			// 			 [6, 25],
+			// 			 [12, 50]
+			// 			 ]
+			// }
+	 }
+	});
 
 });
 	</script>
