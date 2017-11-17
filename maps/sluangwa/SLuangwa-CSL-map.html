@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mapbox GL JS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+	<link rel='stylesheet'href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet'/>
+	<!-- <script src='https://api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script> not sure TurfJS is compatiable w/ mapbox-gl-js -->
+	<!-- <script src="geojson/BushcampCo-sites.geojson" type="text/javascript"></script> -->
+	<!-- <script src="geojson/slnp_ele_carcasses.geojson" type="text/javascript"></script> -->
+	<style>
+		body { margin:0; padding:5; }
+		#map { width: 100%; height: 100%;}
+	</style>
+</head>
+<body>
+
+<div id="map" style="width: 100%; height: 100%"></div>
+<!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
+	<div id='fitBounds' onclick='fit()'>fit to points</div>
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
+		var map = new mapboxgl.Map({
+				container: 'map', // container id
+			  style: 'mapbox://styles/vjoelm/cityu41cn00dm2inzy1hg67vt',
+				interactive: true,
+				center: [31.8149, -13.3806], // map center
+				zoom: 8 // starting zoom;
+		});
+
+ map.on('load', function(){
+	 // Add a geojson point source
+	 // Heatmap layers also work with a vector tile source
+	 map.addSource('carcass', {
+		 "type": "geojson",
+		 "data": "./assets/slnp_ele_carcasses.geojson"
+	 });
+	 map.addLayer({
+		 id: 'carcass-heat',
+		 type: 'heatmap',
+		 source: 'carcass',
+		 maxzoom: 15,
+		 paint: {
+ }
+ })
+});
+	</script>
+</body>
+</html>
