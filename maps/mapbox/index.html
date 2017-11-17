@@ -38,6 +38,31 @@
        data: './assets/trees.geojson'
      });
      // add heatmap layer here
+     map.addLayer({
+       id: 'trees-heat',
+       type: 'heatmap',
+       source: 'trees',
+       maxzoom: 15,
+       paint: {
+         //increase weight as diameter breast height increases
+         'heatmap-weight': {
+           property: 'dbh',
+           type: 'exponential',
+           stops: [
+             [1, 0],
+             [62, 1],
+           ]
+         },
+         //increase intensity as zoom level increases
+         'heatmap-intensity': {
+           stops: [
+             [11, 1],
+             [15, 3]
+           ]
+         },
+         //assign color values be applied to points depending on their density
+       }
+     })
      // add circle layer here
     });
 
