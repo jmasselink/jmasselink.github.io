@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mapbox GL JS</title>
+	<title>South Luangwa carcass</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
@@ -49,10 +49,17 @@
 			 paint: {
 				 'heatmap-radius': {
 					 stops: [
-						 [6, 25],
+						 [5, 25],
 						 [12, 50]
 						 ]
-				 }
+				 },
+				 'heatmap-intensity': {
+					 stops: [
+						 [10, 1],
+						 [15, 5]
+					 ]
+				 },
+
 		 // map.addSource('test_areas', {
 			//  type: "geojson",
 			//  data: "./assets/slnp_test_areas.geojson"
