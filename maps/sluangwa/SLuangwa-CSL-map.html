@@ -17,12 +17,67 @@
 			bottom: 0;
 			width: 100%;
 		}
+		h1 {
+		  font-size: 20px;
+		  line-height: 30px;
+		}
+
+		h2 {
+  	font-size: 14px;
+  	line-height: 20px;
+  	margin-bottom: 10px;
+		}
+
+		a {
+		  text-decoration: none;
+		  color: #2dc4b2;
+		}
+
+		#console {
+			position: absolute;
+			width: 240px;
+			margin: 10px;
+			padding: 10px 20px;
+			background-color: white;
+		}
+
+		.session {
+		  margin-bottom: 20px;
+		}
+
+		.row {
+		  height: 12px;
+		  width: 60px;
+		}
+
+		.colors {
+		  background: linear-gradient(to right, #fee5d9, #fcae91, #fb6a4a, #de2d26, #a50f15);
+		  margin-bottom: 5px;
+		}
 	</style>
 </head>
 <body>
   <div id="map"</div>
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<!-- <div id='fitBounds' onclick='fit()'>fit to points</div> -->
+	<div id='console'
+		<h1>South Luangwa National Park</h1>
+		<p>Reported Poached Carcasses</p>
+				<div class='session'>
+				  <h2>Carcasses</h2>
+				  <div class='row colors'>
+				  </div>
+				  <!-- <div class='row labels'>
+				    <! <div class='label'>0</div>
+				    <div class='label'>1</div>
+				    <div class='label'>2</div>
+				    <div class='label'>3</div>
+				    <div class='label'>4</div>
+				    <div class='label'>5+</div> -->
+				  </div>
+		</div>
+	</div>
+
 	<script>
 		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var map = new mapboxgl.Map({
@@ -47,18 +102,43 @@
 			 source: 'carcass',
 			 maxzoom: 15,
 			 paint: {
-				 'heatmap-radius': {
-					 stops: [
-						 [5, 25],
-						 [12, 50]
-						 ]
-				 },
+			 	// increase heatmap color weight by Z-level
+				// heatmap-intensity is multiplier on top of heatmap-weight
 				 'heatmap-intensity': {
 					 stops: [
-						 [10, 1],
-						 [15, 5]
+						 [5, 1],
+						 [10, 3]
 					 ]
 				 },
+				 // heatmap-color
+				 'heatmap-color': [
+					 'interpolate',
+					 ['linear'],
+					 ['heatmap-density'],
+					 0, 'rgba(254,229,217,0)',
+					 0.25, 'rgb(252,174,145)',
+					 0.5, 'rgb(251,106,74)',
+					 0.75, 'rgb(222,45,38)',
+					 1, 'rgb(165,15,21)'
+				 ],
+         // adjust heatmap radius by Z-level
+				 'heatmap-radius': {
+					 stops: [
+						 [5, 5],
+						 [10, 50]
+						 ]
+				 },
+				 //Transition from heatmap to circle layer by zoom level
+				 "heatmap-opacity": {
+						 "default": 1,
+						 "stops": [
+								 [6, 1],
+								 [12, 0.5]
+						 ]
+				 },
+		 }
+	// }, 'waterway-label'); // add layer above vis
+		});
 
 		 // map.addSource('test_areas', {
 			//  type: "geojson",
@@ -77,8 +157,8 @@
 			// 			 [12, 50]
 			// 			 ]
 			// }
-	 }
-	});
+	 // }}, 'waterway-label');
+
 
 });
 	</script>
