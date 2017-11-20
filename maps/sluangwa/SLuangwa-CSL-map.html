@@ -23,9 +23,9 @@
 		}
 
 		h2 {
-  	font-size: 14px;
-  	line-height: 20px;
-  	margin-bottom: 10px;
+	  	font-size: 14px;
+	  	line-height: 20px;
+	  	margin-bottom: 10px;
 		}
 
 		a {
@@ -63,21 +63,14 @@
 	<div id='console'
 		<h1>South Luangwa National Park</h1>
 		<p>Reported Poached Carcasses</p>
-				<div class='session'>
-				  <h2>Carcasses</h2>
-				  <div class='row colors'>
-				  </div>
-				  <!-- <div class='row labels'>
-				    <! <div class='label'>0</div>
-				    <div class='label'>1</div>
-				    <div class='label'>2</div>
-				    <div class='label'>3</div>
-				    <div class='label'>4</div>
-				    <div class='label'>5+</div> -->
-				  </div>
-		</div>
-	</div>
 
+			<div class='session'>
+			  <h2>Carcasses</h2>
+			  <div class='row colors'>
+			  </div>
+			</div>
+	</div>
+  <div id="map"</div>
 	<script>
 		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var map = new mapboxgl.Map({
@@ -88,77 +81,77 @@
 				zoom: 8 // starting zoom;
 		});
 
-	 map.on('load', function(){
-		 // Add a geojson point source
-		 // Heatmap layers also work with a vector tile source
-		 map.addSource('carcass', {
-			 type: "geojson",
-			 data: "./assets/slnp_ele_carcasses.geojson"
-		 });
-		 // add heatmap layer here
-		 map.addLayer({
-			 id: 'carcass-heat',
-			 type: 'heatmap',
-			 source: 'carcass',
-			 maxzoom: 15,
-			 paint: {
-			 	// increase heatmap color weight by Z-level
-				// heatmap-intensity is multiplier on top of heatmap-weight
-				 'heatmap-intensity': {
-					 stops: [
-						 [5, 1],
-						 [10, 3]
-					 ]
-				 },
-				 // heatmap-color
-				 'heatmap-color': [
-					 'interpolate',
-					 ['linear'],
-					 ['heatmap-density'],
-					 0, 'rgba(254,229,217,0)',
-					 0.25, 'rgb(252,174,145)',
-					 0.5, 'rgb(251,106,74)',
-					 0.75, 'rgb(222,45,38)',
-					 1, 'rgb(165,15,21)'
-				 ],
-         // adjust heatmap radius by Z-level
-				 'heatmap-radius': {
-					 stops: [
-						 [5, 5],
-						 [10, 50]
+		map.on('load', function(){
+			 // Add a geojson point source
+			 // Heatmap layers also work with a vector tile source
+			 map.addSource('carcass', {
+				 type: "geojson",
+				 data: "./assets/slnp_ele_carcasses.geojson"
+			 });
+			 // add heatmap layer here
+			 map.addLayer({
+				 id: 'carcass-heat',
+				 type: 'heatmap',
+				 source: 'carcass',
+				 maxzoom: 15,
+				 paint: {
+				 	// increase heatmap color weight by Z-level
+					// heatmap-intensity is multiplier on top of heatmap-weight
+					 'heatmap-intensity': {
+						 stops: [
+							 [5, 1],
+							 [10, 3]
 						 ]
-				 },
-				 //Transition from heatmap to circle layer by zoom level
-				 "heatmap-opacity": {
-						 "default": 1,
-						 "stops": [
-								 [6, 1],
-								 [12, 0.5]
-						 ]
-				 },
-		 }
-	}, 'slnp-test-areas'); 
-	// }, 'waterway-label'); // add layer above vis
-		// });
+					 },
+					 // heatmap-color
+					 'heatmap-color': [
+						 'interpolate',
+						 ['linear'],
+						 ['heatmap-density'],
+						 0, 'rgba(254,229,217,0)',
+						 0.25, 'rgb(252,174,145)',
+						 0.5, 'rgb(251,106,74)',
+						 0.75, 'rgb(222,45,38)',
+						 1, 'rgb(165,15,21)'
+					 ],
+	         // adjust heatmap radius by Z-level
+					 'heatmap-radius': {
+						 stops: [
+							 [5, 5],
+							 [10, 50]
+							 ]
+					 },
+					 //Transition from heatmap to circle layer by zoom level
+					 "heatmap-opacity": {
+							 "default": 1,
+							 "stops": [
+									 [6, 1],
+									 [12, 0.5]
+							 ]
+					 },
+			 }
+		}, 'slnp-test-areas');
+		// }, 'waterway-label'); // add layer above vis
+			// });
 
-		 // map.addSource('test_areas', {
-			//  type: "geojson",
-			//  data: "./assets/slnp_test_areas.geojson"
-		 // });
-		 // // add heatmap layer here
-		 // map.addLayer({
-			//  id: 'test_areas',
-			//  type: 'polygon',
-			//  source: 'test_areas',
-			//  maxzoom: 15,
-			//  paint: {
-			// 	 'heatmap-radius': {
-			// 		 stops: [
-			// 			 [6, 25],
-			// 			 [12, 50]
-			// 			 ]
-			// }
-	 // }}, 'waterway-label');
+			 // map.addSource('test_areas', {
+				//  type: "geojson",
+				//  data: "./assets/slnp_test_areas.geojson"
+			 // });
+			 // // add heatmap layer here
+			 // map.addLayer({
+				//  id: 'test_areas',
+				//  type: 'polygon',
+				//  source: 'test_areas',
+				//  maxzoom: 15,
+				//  paint: {
+				// 	 'heatmap-radius': {
+				// 		 stops: [
+				// 			 [6, 25],
+				// 			 [12, 50]
+				// 			 ]
+				// }
+		 // }}, 'waterway-label');
 
 
 });
