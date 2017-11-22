@@ -18,12 +18,12 @@
 			width: 100%;
 		}
 		h1 {
-		  font-size: 20px;
+		  font-size: 16px;
 		  line-height: 30px;
 		}
 
 		h2 {
-	  	font-size: 14px;
+	  	font-size: 12px;
 	  	line-height: 20px;
 	  	margin-bottom: 10px;
 		}
@@ -35,7 +35,7 @@
 
 		#console {
 			position: absolute;
-			width: 240px;
+			width: 220px;
 			margin: 10px;
 			padding: 10px 20px;
 			background-color: white;
@@ -47,7 +47,7 @@
 
 		.row {
 		  height: 12px;
-		  width: 60px;
+		  width: 80px;
 		}
 
 		.colors {
@@ -57,20 +57,19 @@
 	</style>
 </head>
 <body>
-  <div id="map"</div>
+  <div id="map"></div>
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<!-- <div id='fitBounds' onclick='fit()'>fit to points</div> -->
-	<div id='console'
+	<div id='console'>
 		<h1>South Luangwa National Park</h1>
-		<p>Reported Poached Carcasses</p>
-
+		<!-- <p>Reported Poached Carcasses</p> -->
 			<div class='session'>
-			  <h2>Carcasses</h2>
+			  <h2>Poached Elephant Carcasses</h2>
 			  <div class='row colors'>
 			  </div>
 			</div>
 	</div>
-  <div id="map"</div>
+  <div id="map"></div>
 	<script>
 		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var map = new mapboxgl.Map({
@@ -130,7 +129,7 @@
 							 ]
 					 },
 			 }
-		}, 'slnp-test-areas');
+		}, 'slnp-test-areas', 'slnp-test-areas-label');
 		// }, 'waterway-label'); // add layer above vis
 			// });
 
