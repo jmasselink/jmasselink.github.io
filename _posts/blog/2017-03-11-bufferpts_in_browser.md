@@ -4,7 +4,7 @@ category: Blog
 title: "Buffering Points in the Browser"
 author: "Joel Masselink"
 twitter: j_masselink
-permalink: /blog/
+permalink: /blog/20170311.html
 #2017/03/bufferpts_in_browser/
 ---
 
