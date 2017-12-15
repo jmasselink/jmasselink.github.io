@@ -4,7 +4,7 @@ category: Blog
 title: "Great Elephant Census at SCGIS"
 author: "Joel Masselink"
 twitter: j_masselink
-permalink: /blog/
+permalink: /blog/20170404.html
 #2017/04/gec_presentation/
 ---
 Last June, I attended the Society for Conservation GIS Conference at Asilomar, California. This conference gathers many GIS professionals working in nonprofits, private sector, and also sponsors a cohort of international scholars. This was the first time that someone Vulcan attended SCGIS, and my colleague Paul made also made a presentation on using machine-learning to identify elephants from drone
