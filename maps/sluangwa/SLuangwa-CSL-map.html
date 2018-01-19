@@ -86,6 +86,22 @@
 
 		map.on('load', function(){
 			 // Add a geojson point source
+			 map.addSource('bushcamp', {
+				 type: "geojson",
+				 data: "./assets/BushcampCo-sites.geojson"
+			 });
+			 map.addLayer({
+					 id: "bushcamp",
+					 source: 'bushcamp', //"geojson/BushcampCo-sites.geojson",
+					 type: "symbol",
+					 layout: {
+					 			'icon-image': 'lodging-15',
+					 			'icon-size': 1,
+					 			'text-field': "{site}",
+					 			'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold']
+					 	}
+			 });
+
 			 // Heatmap layers also work with a vector tile source
 			 map.addSource('carcass', {
 				 type: "geojson",
@@ -133,7 +149,7 @@
 							 ]
 					 },
 			 }
-		}, 'slnp-test-areas', 'slnp-test-areas-label');
+		}, 'slnp-test-areas', 'slnp-test-areas-label'); //'bushcamp',
 
 });
 	</script>

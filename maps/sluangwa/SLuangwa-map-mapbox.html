@@ -24,9 +24,7 @@
 		}*/
 	</style>
 </head>
-
 <body>
-
 	<div id="map" style="width: 100%; height: 100%"></div>
 <!-- adapted from https://bl.ocks.org/danswick/83a8ddff7fb9193176a975a02a896792 -->
 	<div id='fitBounds' onclick='fit()'>fit to points</div>
@@ -34,20 +32,8 @@
 		mapboxgl.accessToken = 'pk.eyJ1IjoidmpvZWxtIiwiYSI6ImNpZ3RzNXdmeDA4cm90N2tuZzhsd3duZm0ifQ.YcHUz9BmCk2oVOsL48VgVQ'
 		var map = new mapboxgl.Map({
 				container: 'map', // container id
-				// style: 'mapbox://styles/mapbox/streets-v9',
 			  style: 'mapbox://styles/vjoelm/cityu41cn00dm2inzy1hg67vt', //stylesheet location
-				// style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
-				// hash: true, //hash location
-				// maxZoom: 12,
-				// minZoom: 8,
 				interactive: true,
-				//not working
-				// fitBounds:[
-				// 	[-13.751391, 30.325012]//southwest,
-				// 	[-12.319878, 32.938385]//northeast,
-				// ],
-				// doesn't work
-				// setMaxBounds(sites),
 				center: [31.8149, -13.3806], // map center
 				zoom: 8 // starting zoom;
 		});
@@ -65,17 +51,20 @@
 		// { "type": "Feature", "properties": { "site": "Kapamba Airstrip ", "lat": -13.37473056, "lon": 31.54125556 }, "geometry": { "type": "Point", "coordinates": [ 31.541256, -13.374731 ] } }
 		// ]
 		// }
-
-
+    //
+    //
 		// var myGeoJSON = mapbox.addLayer()
 		// 	.loadURL('geojson/BushcampCo-sites.geojson')
 		// 	.addTo (map);
 
-		// map.addSource('sites',
-		// 	type: 'geojson'
-		// 	data: 'geojson/BushcampCo-sites.geojson'
-		// 	)
-
+		map.on('load', function(){
+			// Add a geojson point source
+			map.addSource('bushcamp', {
+				type: 'geojson',
+				data: './assets/BushcampCo-sites.geojson'
+			})
+		// });
+// });
 
 		// var bbox = turf.extent(sites); //not sure TurfJS is compatiable w/ mapbox-gl-js
 
@@ -86,15 +75,27 @@
 		// 				"url": "geojson/BushcampCo-sites.geojson"
 		//     });
 		//
-		//     map.addLayer({
-		//         "id": "geojsonLayer",
-		//         "type": "fill",
-		//         "source": "geojson/BushcampCo-sites.geojson",
-		//         "paint": {
-		//             "fill-color": "#000fff"
-		//         }
-		//     });
-		// });
+		    map.addLayer({
+		        id: "bushcamp",
+						source: 'bushcamp', //"geojson/BushcampCo-sites.geojson",
+					// Symbolize circle
+						// type: "circle",
+						// paint: {'circle-color': "#B42222",
+						// 	'circle-radius': 6},
+					// Symbolize icon
+						type: "symbol",
+						layout: {	// 'properties': {
+									// 'title': 'site',
+									'icon-image': 'lodging-15',
+									'icon-size': 1,
+									// 'icon-color': 'red',
+									'text-field': "{site}",
+									'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold']
+							}
+						// },
+						// icon-image: {
+		    });
+		});
 		//
 		// // added from http://stackoverflow.com/questions/35586360/mapbox-gl-js-getbounds-fitbounds
 		// var bounds = new mapboxgl.LngLatBounds();
