@@ -12,11 +12,11 @@ permalink: /about/
 I am a GIS developer at [**Vulcan Technology**](http://www.vulcan.com/technology) in [Seattle, Washington](/maps/leaflet-map.html) where I work on geospatial data and tools for cutting-edge conservation technology projects.
 
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.us) and [Society for Conservation GIS](http://scgis.org).
->I enjoy working on MissingMaps / Humanitarian OpenStreetMap projects, open source GIS, and Python programming.  
+>I enjoy working on MissingMaps / Humanitarian OpenStreetMap projects, open source GIS, and Python scripting.  
 
 >To this point in my career, my work relates to working with geospatial data and mapping, mostly in the international conservation sector. Check out my [resume](resume.md) for more details about my career.
 
->In my spare time, I volunteer for [**Tusubira**](http://www.tusubira.org), a nonprofit organization which supports education and women's empowerment in eastern Uganda. My role is treasurer and technology support.
+>In my spare time, I volunteer for [**Tusubira**](http://www.tusubira.org), a nonprofit organization which supports education and women's empowerment in eastern Uganda. My role is treasurer and fundraising.
 
 >Outside of work, I like to travel, cat-sit, watch birds, read, exercise, and watch sports.
 

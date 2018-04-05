@@ -15,7 +15,7 @@ Clark Univ. (Massachusetts)<br><br>
 **Work**
 >*GIS Developer* <br>
 Vulcan Technology, 2014 - present<br>
-- supporting conservation technology projects including Great Elephant Census and Domain Awareness System
+- supporting conservation tech projects including Great Elephant Census and Domain Awareness System with my geospatial data management, analysis, and visualization expertise
 
 >*Principal Consultant*<br>
 Earth Logic LLC, 2014 - present
@@ -37,7 +37,7 @@ Wildlife Conservation Society - DR Congo program,
 
 >*Spatial databases*
 - PostGIS (PostgreSQL)
-- Spatialite (SQLite) / GeoPackages
+- GeoPackages / Spatialite (SQLite)
 - ArcGIS Enterprise & File Geodatabases
 
 >*Programming / Scripting*
@@ -49,9 +49,11 @@ Wildlife Conservation Society - DR Congo program,
 
 >*Open data platforms*
 - OpenStreetMap editing (JOSM, iD)
+  - coordinated 20 corporate mapathons (through April 5, 2018)
 - Google Earth Engine JavaScript & Python APIs
+  - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
 - OpenDataKit (ODK) Collect
-- Ushahidi
+- Ushahidi deployment support
 
 >*Web development*
 - GitHub pages
@@ -64,5 +66,5 @@ Wildlife Conservation Society - DR Congo program,
 
 >*Geographic experience*
 - United States: northeast, mid-Atlantic, southeast, Pacific northwest
-- central Africa (DR Congo)
-- east Africa (Uganda)
+- central Africa (DR Congo, Congo)
+- east Africa (Uganda, Rwanda, Kenya)
