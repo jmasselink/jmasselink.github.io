@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Earth Logic
+title: Consulting
 permalink: /earthlogic/
 ---
 <!-- >**Joel Masselink**<br>
