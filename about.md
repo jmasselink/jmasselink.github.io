@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 >Hi there! My name is Joel Masselink.
-Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/leaflet-map.html). For a few years now, I have had a small consulting business called **Earth Logic LLC** which allows me to work closely with clients like conservation nonprofits, archaeology companies, and  on curating geospatial data and developing tools for their projects.
+Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/leaflet-map.html). For a few years now, I have had a small consulting firm called **Earth Logic LLC** which allows me to work closely with clients like conservation nonprofits, archaeology companies, and international development organizations on curating geospatial data and developing tools for their projects.
 
 >I have previously worked for [**Vulcan**](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle)  and for [**Wildlife Conservation Society**](http://www.wcs.org) in the Democratic Republic of the Congo.
 
@@ -16,10 +16,12 @@ Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Sea
 
 >In my spare time, I volunteer for [**Tusubira**](http://www.tusubira.org), a nonprofit organization which supports education and women's empowerment in eastern Uganda. My role is Treasurer and fundraising.
 
+>I also support LUCHA-RDC, a Congolese pro-democracy and peacemaking network, in deploying Ushahidi to monitor election-related abuses.
+
 >Outside of work, I like to travel, cat-sit, watch birds, read, exercise, and watch sports.
 
 
-Lately, I've enjoyed working on OpenStreetMap and contributing my geographic knowledge to the OSM platform - a free, editable, and usable map of the world.
+>Lately, I've enjoyed working on OpenStreetMap and contributing my geographic knowledge to the OSM platform - a free, editable, and usable map of the world.
 
   ->  my username on OpenStreetMap:  [mbela](http://www.openstreetmap.org/user/mbela)  
 
