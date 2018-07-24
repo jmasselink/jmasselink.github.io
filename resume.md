@@ -13,16 +13,19 @@ Clark Univ. (Massachusetts)<br><br>
 >BS, Geographic Science, 2005<br> James Madison Univ. (Virginia) <br>
 
 **Work**
->*GIS Developer* <br>
-Vulcan Technology, 2014 - present<br>
-- supporting conservation tech projects including Great Elephant Census and Domain Awareness System with my geospatial data management, analysis, and visualization expertise
-
 >*Principal Consultant*<br>
-Earth Logic LLC, 2014 - present
+Earth Logic LLC, 2014 - present<br>
+- provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
+
+>*GIS Developer* <br>
+Vulcan Technology, 2014 - 2018<br>
+- supported conservation tech projects including Great Elephant Census and Domain Awareness System with geospatial data management, analysis, and visualization expertise.
 
 >*GIS Coordinator*<br>
 Wildlife Conservation Society - DR Congo program,
-2009 - 2013
+2009 - 2013<br>
+- supported field projects with GIS capacity-building, spatial analysis, and technical assistance.
+
 
 **Skills**
 >*desktop GIS/visualization software*
