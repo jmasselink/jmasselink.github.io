@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: post
 category: Blog
 title: "Buffering Points in the Browser"
 author: "Joel Masselink"

@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: post
 category: Blog
 title: "Great Elephant Census at SCGIS"
 author: "Joel Masselink"

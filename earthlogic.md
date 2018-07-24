@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resume
-permalink: /resume/
+title: Earth Logic
+permalink: /earthlogic/
 ---
 <!-- >**Joel Masselink**<br>
 ***Geospatial Specialist and Consultant***<br>
