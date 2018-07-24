@@ -7,67 +7,29 @@ permalink: /earthlogic/
 ***Geospatial Specialist and Consultant***<br>
 *Seattle, Washington* -->
 
-**Education**
->MA, GIS for Development & Environment, 2009<br>
-Clark Univ. (Massachusetts)<br><br>
->BS, Geographic Science, 2005<br> James Madison Univ. (Virginia) <br>
+**SELECTED EARTH LOGIC PROJECT EXPERIENCE**:
 
-**Work**
->*Principal Consultant*<br>
-Earth Logic LLC, 2014 - present<br>
-- provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
+Ecological Record Data Model for SMART – USAID Strengthening Central Africa Environmental Management & Policy Support
+World Resources Institute: May 2015 – December 2015
+________________________________________
+>Earth Logic partnered with World Resources Institute to create a harmonized Central Africa Ecological Records data model for SMART and harmonized 50 forest survey datasets to this model as part of this project. Earth Logic provided data processing, translation, and management services to the World Resources Institute and worked closely with Wildlife Conservation Society throughout this project.
 
->*GIS Developer* <br>
-Vulcan Technology, 2014 - 2018<br>
-- supported conservation tech projects including Great Elephant Census and Domain Awareness System with geospatial data management, analysis, and visualization expertise.
+Cartography of legal limits of DRC Protected Area system
+World Wildlife Fund - US: May 2014 – December 2015
+________________________________________
+>Earth Logic partnered with World Wildlife Fund-US to map the legal limits of DR Congo’s network of protected areas. Earth Logic undertook a systematic review of legal decrees creating or revising each protected area, defining their boundaries by their simplest elements, and mapping them using historic maps and other spatial data sources. This was Phase 1 of the Support Program to DRC Protected Areas Network (Programme d’Appui au Réseau des Aires Protégées), which WWF leads to support the DRC government in conserving biodiversity and safeguarding ecosystem services through an effectively managed network of protected areas.
 
->*GIS Coordinator*<br>
-Wildlife Conservation Society - DR Congo program,
-2009 - 2013<br>
-- supported field projects with GIS capacity-building, spatial analysis, and technical assistance.
+Spatial Data Assessment for Large-Scale Infrastructure in Lower Mekong Countries
+Wildlife Conservation Society: September 2014 ­ December 2014
+________________________________________
+>In association with the Wildlife Conservation Society, Earth Logic undertook a research project for USAID’s Mekong Partnership for the Environment, which data related to large-scale infrastructure development projects in the lower Mekong region, with a focus on Laos, Myanmar, and Vietnam. This research project identified data and information resources relevant to key sector projects, including hydropower, mining, oil and gas, transportation, energy and communications – which are likely to result in significant social, economic, and environmental impacts. Earth Logic conducted in-depth assessment on five significant and representative development projects, providing information about their geographic footprint, project investors, developers and timeline, social and environmental safeguards. This information informs partner organizations and civil society members about key data sources and identified key data gaps, which can help to strengthen civil society’s capacity to positively impact development.
 
 
-**Skills**
->*desktop GIS/visualization software*
-- ArcGIS
-- QGIS
-- Tableau
+RELEVANT PROJECTS WITH PREVIOUS EMPLOYERS:
 
->*Web-mapping*
-- Mapbox Studio
-- MapboxJS / Mapbox GL JS
-- LeafletJS
-
->*Spatial databases*
-- PostGIS (PostgreSQL)
-- GeoPackages / Spatialite (SQLite)
-- ArcGIS Enterprise & File Geodatabases
-
->*Programming / Scripting*
-- command line utilities (bash, cmd)
-- Python
-- GDAL / OGR
-- JavaScript
-- Git / GitHub / version control
-
->*Open data platforms*
-- OpenStreetMap editing (JOSM, iD)
-  - coordinated 20 corporate mapathons (through April 5, 2018)
-- Google Earth Engine JavaScript & Python APIs
-  - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
-- OpenDataKit (ODK) Collect
-- Ushahidi deployment support
-
->*Web development*
-- GitHub pages
-- JavaScript / Markdown
-- WordPress
-
->*Languages spoken*
-- conversant in French
-- basic Swahili
-
->*Geographic experience*
-- United States: northeast, mid-Atlantic, southeast, Pacific northwest
-- central Africa (DR Congo, Congo)
-- east Africa (Uganda, Rwanda, Kenya)
+**VULCAN**:
+>Mr. Masselink managed, analyzed, and harmonized data submissions for Vulcan’s flagship conservation project, the Great Elephant Census, which was a pan-African survey of savannah elephants.  
+**WILDLIFE CONSERVATION SOCIETY, DR CONGO PROGRAM**:
+>Mr. Masselink collected, managed, and analyzed spatial and quantitative data for land-use planning and wildlife monitoring activities funded by USAID’s Central Africa Regional Program for the Environment. He produced assessments of land cover change using high-resolution satellite imagery and assessed changes in the distribution and populations of key indicator species using survey data.
+**AFRICA BIODIVERSITY COLLABORATIVE GROUP**:
+>While at Wildlife Conservation Society, Mr. Masselink was team leader for the “Mining and Biodiversity in DR Congo” working group, which assessed the impacts from mining on biodiversity and ecosystem services. Mr. Masselink led the successful implementation of a national workshop aimed at introducing international best practices for the mining sector.
