@@ -7,36 +7,24 @@ permalink: /about/
 >Hi there! My name is Joel Masselink.
 Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/leaflet-map.html). For a few years now, I have had a small consulting firm called **Earth Logic LLC** which allows me to work closely with clients like conservation nonprofits, archaeology companies, and international development organizations on curating geospatial data and developing tools for their projects.
 
->I have previously worked for [**Vulcan**](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle)  and for [**Wildlife Conservation Society**](http://www.wcs.org) in the Democratic Republic of the Congo.
+>I have previously worked for [**Vulcan**](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle) on the [Great Elephant Census](http://www.greatelephantcensus.com) and Domain Awareness System projects, and for [**Wildlife Conservation Society**](http://www.wcs.org) in the Democratic Republic of the Congo.
 
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.us) and the [Society for Conservation GIS](http://scgis.org).
->I enjoy working on MissingMaps / Humanitarian OpenStreetMap projects, open source GIS, and Python scripting.  
+>I enjoy working on MissingMaps / Humanitarian OpenStreetMap projects, open source GIS, and working with Python, SQL, R, and JavaScript.
 
->To this point in my career, my work relates to geospatial data and mapping, mostly in the international conservation sector. Check out my [resume](resume.md) for more details about my career.
+>To this point in my career, my work managing and analyzing geospatial data and designing maps, mostly for projects related to international conservation. Check out my [resume](resume.md) for more details about my career.
 
->In my spare time, I volunteer for [**Tusubira**](http://www.tusubira.org), a nonprofit organization which supports education and women's empowerment in eastern Uganda. My role is Treasurer and fundraising.
+>In my spare time, I volunteer for [**Tusubira**](http://www.tusubira.org), a nonprofit organization which supports education and women's empowerment in eastern Uganda. I am the treasurer so my role includes bookkeeping and fundraising.
 
->I also support LUCHA-RDC, a Congolese pro-democracy and peacemaking network, in deploying Ushahidi to monitor election-related abuses.
+>I'm also part of a small group of digital humanitarians who support LUCHA (*Lutte pour la Changement*), a Congolese pro-democracy and peacemaking network, in deploying [Ushahidi](http://www.ushahidi.com) to monitor election-related abuses.
 
->Outside of work, I like to travel, cat-sit, watch birds, read, exercise, and watch sports.
+>Outside of work, I like to travel, take care of your pets, watch birds, read, exercise, hike, and watch sports. I also like to hang around with my lovely wife, [Carol](http://www.carolbogezi.com) and my old friends.
 
+>Lately, I've enjoyed working on [OpenStreetMap](http://www.openstreetmap.org) and contributing to the OSM platform - a free, editable, and usable map of the world.
 
->Lately, I've enjoyed working on OpenStreetMap and contributing my geographic knowledge to the OSM platform - a free, editable, and usable map of the world.
-
-  ->  my username on OpenStreetMap:  [mbela](http://www.openstreetmap.org/user/mbela)  
+  ->  here's my OpenStreetMap user profile:  [mbela](http://www.openstreetmap.org/user/mbela)  
 
   ->  here's my *How did you contribute to OpenStreetMap?* [user profile](http://hdyc.neis-one.org/?mbela) courtesy of [Pascal Neis](http://neis-one.org)
-
-
-Here are a few Leaflet maps that I'm working on:
-
-<!-- * [example leaflet map](/maps/leaflet-map.html) -->
-* [Seattle farmers' market *leafletjs* map](/maps/Seattle-markets-map.html)
-* [Seattle *thunderforest* map](/maps/survive-sound-thunderforest.html)
-<!-- * [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html) -->
-* [South Luangwa *leafletjs* map](/maps/SLuangwa-map-leaflet.html)
-* [South Luangwa *thunderforest* map](/maps/SLuangwa-map-thunderforest.html)<br>
-
 
 **this site written in Markdown for simplicity**
 
