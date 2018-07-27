@@ -45,35 +45,36 @@ section:last-child {
 <div id='features'>
     <section id='welcome' class='active'>
         <h3>Hey, there!</h3>
-        <p>Welcome to my resumap - built using Mapbox! A list of skills, capabilities, and experiences resume can only say so much. <br><br>🤖 And I make maps - so I'm going to tell you my story using this resumap! <br><br>Resumaps are designed to fill the gaps in your resume. If you want to stand out, a resumap is a fun way to help people get to know you. After all, wouldn't you want to know who you're hiring? So if you want see more, sit back, relax, and enjoy the flight 🚀</p>
     </section>
-    <section id='section1' class='active'>
+    <p>Welcome to my resumap - built using Mapbox! A list of skills, capabilities, and experiences resume can only say so much. <br><br>My resumap is designed to  are designed to illustrate my resume as well as to provide a fun way to help you get to know me. 🚀<br><br> And I make maps - so I'm going to tell you my story using this resumap! 🤖</p>
+    <section id='youth-ma' class='active'>
         <h3>1. Youth in MA</h3>
-        <p>I grew up in a lovely small town called Whitinsville, MA, where my youth was filled with school, church, and family activities. In school, everybody did extracurricular activities - my choices were soccer, basketball, orchestra, and choir. Where did you come from? What really brought you there? What made you leave? This is to let people get a glimpse of who the person behind the paper is. This is New Mexico...but you can center your map however you want.
+        <p>I grew up in a lovely small town called Whitinsville, MA, where my youth was filled with school, church, and family activities. In school, everybody did extracurricular activities - my choices were soccer, basketball, orchestra, and choir.
     </section>
-    <section id='section2'>
-        <h3>Section 2</h3>
-        <p>As your readers scroll through these sections, your resumap will fly them to the locations you've specified. A sense of place is something that a lot of people resonate with. Where you were when you did what you did is half of the story.<br><br>Add some line breaks to start a new paragraph if you want to feel fancy.</p>
+    <section id='jmu'>
+        <h3>2. Off to JMU</h3>
+        <p>For college, I followed my big sister south of the Mason-Dixon to the Commonwealth of Virginia. At James Madison, I was exposed to GIS for the first time and saw that it was a natural fit for my interests - maps, geography, and working with computers - Nice!
+          <br><br>Add some line breaks to start a new paragraph if you want to feel fancy.</p>
     </section>
-    <section id='section3'>
-        <h3>Section 3</h3>
-        <p>You can add pictures! <br><br> <img src="https://i.imgur.com/NF8af.jpg"><br><br></p>
+    <section id='uganda'>
+        <h3>3. Uganda</h3>
+        <p>After college, I was given the opportunity to map clean water sources while working with a water engineer in Uganda. This exposed me to international work and changed the direction that I wanted to take my career. <br><br> <img src="https://i.imgur.com/NF8af.jpg"><br><br></p>
     </section>
-    <section id='section4'>
-        <h3>Section 4</h3>
+    <section id='working-man'>
+        <h3>4. Working man</h3>
         <p>Or even gifs! <br><br><iframe src="https://giphy.com/embed/fpXxIjftmkk9y" width="224" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
         </p>
     </section>
-    <section id='section5'>
-        <h3>Section 5</h3>
+    <section id='clark'>
+        <h3>5. Back home to Clark</h3>
         <p>Or videos! WHAT!<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/le0BLAEO93g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </p>
     </section>
-    <section id='section6'>
-        <h3>Section 6</h3>
+    <section id='drc'>
+        <h3>6. Job in the jungle</h3>
         <p>The most important thing is to tell <i>your</i> story. What makes you you?</p>
     </section>
-    <section id='section7'>
-        <h3>Time to make your own</h3>
+    <section id='seattle'>
+        <h3>7. Settling in Seattle</h3>
         <p>Have fun!<br><br><iframe src="https://giphy.com/embed/lJNoBCvQYp7nq" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p></p>
     </section>
 </div>
@@ -81,7 +82,7 @@ section:last-child {
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam1hc3NlbGluayIsImEiOiJabWhkUG5NIn0.6xSjdgz2QoNbWb-7F4BqDg';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/outdoors-v10',
+    style: 'mapbox://styles/jmasselink/cjjf7bgby12zm2so88p19hwvk',
         bearing: -0,
         center: [-108.866174, 49.272291],
         zoom: 2,
@@ -96,53 +97,67 @@ var chapters = {
         speed: 0.8,
         pitch: 0
     },
-    'section1': {
+    'youth-ma': {
         bearing: 0,
-        center: [-72, 42],
-        zoom: 6.00,
+        center: [-71.664, 42.106],
+        zoom: 13,
         pitch: 0
     },
-    'section2': {
+    'jmu': {
+        center: [-78.874, 38.440],
+        bearing: 54.40,
+        zoom: 13.1,
+        speed: 0.6,
+        pitch: 44.50
+    },
+    'uganda': {
+        bearing: 12.80,
+        center: [30.014, 0.672],
+        zoom: 11.72,
+        speed: 0.6,
+        pitch: 0.00
+    },
+    'working-man': {
+        bearing: 0,
+        center: [-78.470, 38.081],
+        zoom: 12,
+        speed: 0.6,
+        pitch: 45
+    },
+    // 'working-man-ca': {
+    //     bearing: 0,
+    //     center: [-116.011, 34.230],
+    //     zoom: 9.4,
+    //     speed: 0.6,
+    //     pitch: 45
+    // },
+    // 'working-man-al': {
+    //     bearing: 0,
+    //     center: [-85.800, 33.693],
+    //     zoom: 11.8,
+    //     speed: 0.6,
+    //     pitch: 45
+    // },
+    'clark': {
+        bearing: 0,
+        center: [-71.823,42.251],
+        zoom: 16,
+        pitch: 10,
+        speed: 0.6
+    },
+    'drc': {
+        bearing: 0,
+        center: [28.559615, 1.663955],
+        zoom: 8,
+        pitch: 0,
+        speed: 0.6
+    },
+    'seattle': {
         center: [-122.316235, 47.605958],
         bearing: 54.40,
         zoom: 12.59,
         speed: 0.6,
         pitch: 44.50
-    },
-    'section3': {
-        bearing: 12.80,
-        center: [-0.075681, 51.498018],
-        zoom: 13.18,
-        speed: 0.6,
-        pitch: 0.00
-    },
-    'section4': {
-        bearing: 60,
-        center: [-134.408720, 58.300388],
-        zoom: 16.57,
-        speed: 0.6,
-        pitch: 45
-    },
-    'section5': {
-        bearing: 15.20,
-        center: [29.027289, 41.013899],
-        zoom: 10.56,
-        pitch: 40.50,
-        speed: 0.6
-    },
-    'section6': {
-        bearing: 0,
-        center: [-63.594167, -17.701427],
-        zoom: 5.53,
-        pitch: 0,
-        speed: 0.6
-    },
-    'section7': {
-        bearing: -0,
-        center: [27.230526, 0.000000],
-        zoom: 1.18,
-        speed: 0.8,
-        pitch: 0
     },
 };
 // On every scroll event, check which element is on screen
