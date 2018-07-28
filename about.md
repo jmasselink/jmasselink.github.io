@@ -5,14 +5,14 @@ permalink: /about/
 ---
 
 >Hi there! My name is Joel Masselink.
-Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/leaflet-map.html). For a few years now, I have had a small consulting firm called [**Earth Logic LLC**](/earthlogic)) which allows me to work closely with clients like conservation nonprofits, archaeology companies, and international development organizations on curating geospatial data and developing tools for their projects.
+Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/seattle-leaflet.html). For a few years now, I have had a small consulting firm called [**Earth Logic LLC**](/earthlogic) which allows me to work closely with clients like conservation nonprofits, archaeology companies, and international development organizations on curating geospatial data and developing tools for their projects.
 
->I have previously worked for [**Vulcan**](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle) on the [Great Elephant Census](http://www.greatelephantcensus.com) and Domain Awareness System projects, and for [**Wildlife Conservation Society**](http://www.wcs.org) in the Democratic Republic of the Congo.
+>I have previously worked for [Vulcan](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle) on the [Great Elephant Census](http://www.greatelephantcensus.com) and Domain Awareness System projects, and for [Wildlife Conservation Society](http://www.wcs.org) in the Democratic Republic of the Congo.
 
 >I am a proud member of [OpenStreetMap US](http://openstreetmap.us) and the [Society for Conservation GIS](http://scgis.org).
 >I enjoy working on MissingMaps / Humanitarian OpenStreetMap projects, open source GIS, and working with Python, SQL, R, and JavaScript.
 
->To this point in my career, my work managing and analyzing geospatial data and designing maps, mostly for projects related to international conservation. Check out my [resume](resume.md) for more details about my career.
+>To this point in my career, my work involves managing and analyzing geospatial data and designing maps, mostly for international conservation projects. Check out my [resume](resume.md) for more details about my career.
 
 >In my spare time, I volunteer for [**Tusubira**](http://www.tusubira.org), a nonprofit organization which supports education and women's empowerment in eastern Uganda. I am the treasurer so my role includes bookkeeping and fundraising.
 
