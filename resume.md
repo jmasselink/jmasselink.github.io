@@ -7,10 +7,13 @@ permalink: /resume/
 ***Geospatial Specialist and Consultant***<br>
 *Seattle, Washington* -->
 
+**Not what you're looking for? Check out my [resumap](/maps/resumap.html)**.
+
 **Education**
 >MA, GIS for Development & Environment, 2009<br>
-Clark Univ. (Massachusetts)<br><br>
->BS, Geographic Science, 2005<br> James Madison Univ. (Virginia) <br>
+Clark Univ. (Massachusetts)
+
+>BS, Geographic Science, 2005<br> James Madison Univ. (Virginia)<br>
 
 **Work**
 >*Principal Consultant*<br>
@@ -52,7 +55,7 @@ Wildlife Conservation Society - DR Congo program,
 
 >*Open data platforms*
 - OpenStreetMap editing (JOSM, iD)
-  - coordinated 20 corporate mapathons (through April 5, 2018)
+  - coordinated over 20 corporate MissingMaps mapathons
 - Google Earth Engine JavaScript & Python APIs
   - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
 - OpenDataKit (ODK) Collect
@@ -62,6 +65,7 @@ Wildlife Conservation Society - DR Congo program,
 - GitHub pages
 - JavaScript / Markdown
 - WordPress
+- HTML / CSS
 
 >*Languages spoken*
 - conversant in French
