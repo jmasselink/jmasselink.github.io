@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 >Hi there! My name is Joel Masselink.
-Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/leaflet-map.html). For a few years now, I have had a small consulting firm called **Earth Logic LLC** which allows me to work closely with clients like conservation nonprofits, archaeology companies, and international development organizations on curating geospatial data and developing tools for their projects.
+Hi there! I'm Joel and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/leaflet-map.html). For a few years now, I have had a small consulting firm called [**Earth Logic LLC**](/earthlogic)) which allows me to work closely with clients like conservation nonprofits, archaeology companies, and international development organizations on curating geospatial data and developing tools for their projects.
 
 >I have previously worked for [**Vulcan**](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle) on the [Great Elephant Census](http://www.greatelephantcensus.com) and Domain Awareness System projects, and for [**Wildlife Conservation Society**](http://www.wcs.org) in the Democratic Republic of the Congo.
 
