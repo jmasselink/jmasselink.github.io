@@ -17,11 +17,11 @@ Clark Univ. (Massachusetts)
 
 **Work**
 >*Principal Consultant*<br>
-Earth Logic LLC, 2014 - present<br>
+Earth Logic LLC, 2014 - 2015; 2018 - present<br>
 - provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
 
 >*GIS Developer* <br>
-Vulcan Technology, 2014 - 2018<br>
+Vulcan Technology, 2015 - 2018<br>
 - supported conservation tech projects including Great Elephant Census and Domain Awareness System with geospatial data management, analysis, and visualization expertise.
 
 >*GIS Coordinator*<br>
