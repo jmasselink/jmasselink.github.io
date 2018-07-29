@@ -16,5 +16,5 @@ Here are a few maps that I'm working on using different JavaScript libraries:
 * [My Resumap!](/maps/resumap.html)
 
 **Made with LeafletJS**
-* [Seattle map](/maps/leaflet-map.html)
+* [Seattle map](/maps/seattle-leaflet.html)
 * [South Luangwa map](/maps/SLuangwa-map-leaflet.html)
