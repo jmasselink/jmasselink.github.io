@@ -31,10 +31,13 @@ Wildlife Conservation Society - DR Congo program,
 
 
 **Skills**
->*desktop GIS/visualization software*
+>*desktop GIS / data visualization software*
 - ArcGIS
 - QGIS
 - Tableau
+
+>*conservation-focused applications*
+- SMART (Spatial Monitoring and Reporting Tool )
 
 >*Web-mapping*
 - Mapbox Studio
@@ -50,12 +53,11 @@ Wildlife Conservation Society - DR Congo program,
 - command line utilities (bash, cmd)
 - Python
 - GDAL / OGR
-- JavaScript
 - Git / GitHub / version control
 
 >*Open data platforms*
-- OpenStreetMap editing (JOSM, iD)
-  - coordinated over 20 corporate MissingMaps mapathons
+- OpenStreetMap editors (JOSM, iD)
+  - coordinated >20 corporate MissingMaps mapathons
 - Google Earth Engine JavaScript & Python APIs
   - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
 - OpenDataKit (ODK) Collect
