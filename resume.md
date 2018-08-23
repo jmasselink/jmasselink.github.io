@@ -37,7 +37,7 @@ Wildlife Conservation Society - DR Congo program,
 - Tableau
 
 >*conservation-focused applications*
-- SMART (Spatial Monitoring and Reporting Tool )
+- SMART (Spatial Monitoring and Reporting Tool) Conservation software
 
 >*Web-mapping*
 - Mapbox Studio
