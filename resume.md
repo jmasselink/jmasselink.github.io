@@ -20,18 +20,20 @@ Clark Univ. (Massachusetts)
 >*GIS Developer* <br>
 **Vulcan Technology / Impact Engineering**. Seattle, WA. 2015 - 2018. <br>
 - supported conservation technology projects with geospatial data management, analysis, and visualization expertise.
-  - *Great Elephant Census*:
-  - *Domain Awareness System*:
+  - [*Great Elephant Census*](http://www.greatelephantcensus.com): processed and normalized database containing over a hundred aerial wildlife surveys.
+  - [*Domain Awareness System*](https://www.vulcan.com/news/articles/2017/domain-awareness-system): developed spatial data model, schema, and reference geospatial data for ~15 African protected areas where DAS was
 
 >*GIS Coordinator*<br>
 **Wildlife Conservation Society - DR Congo program**. Epulu, DRC. 2009 - 2013.<br>
-- supported field projects with GIS capacity-building, spatial analysis, and technical assistance.
-- served as WCS' focal point for *Africa Biodiversity Collaborative Group (ABCG)* *Mining & Biodiversity in DRC* collaborative team.
+- supported field projects with GIS capacity-building, training, spatial analysis, and technical assistance.
+- served as WCS' focal point for *Africa Biodiversity Collaborative Group (ABCG) Mining & Biodiversity in DRC* collaborative team.
   - Led planning and implementation of successful workshop entitled [“Mitigating the Impacts from Mining in the DRC”](http://pfbc-cbfp.org/news_en/items/ABCG-ENEN.html) in June 2013, funded by USAID and sponsored by the Ministry of Mines. Identified participants, designed thematic sessions, and managed $50K budget
 
 >*USAID Africa Bureau Intern*<br>
-**Central African Regional Program for the Environment (CARPE) / USAID Mission to the Democratic Republic of Congo**. Kinshasa, DRC. 2008.<br>
-- provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
+**Central African Regional Program for the Environment (CARPE)**, USAID Mission to the Democratic Republic of Congo. Kinshasa, DRC. 2008.<br>
+-	Designed landscape maps for Congo Basin Forest Partnership *State of the Forest 2008* publication.
+-	Contributed to monitoring and evaluation procedures.
+
 
 >*GIS/Database Manager*<br>
 **NAEVA Geophysics Inc.**. Charlottesville, VA. 2006 - 2007
@@ -39,13 +41,15 @@ Clark Univ. (Massachusetts)
 
 **Conference Presentations**
 >- Society for Conservation GIS (SCGIS) Conference 2018, Monterey, CA:
->>presented [A Primer on OpenStreetMap and Applications to Conservation](https://docs.google.com/presentation/d/1zVOn-MY0yLkzi1AFVDWnqPjft8Fsf8NJmRQKGiEDTBs/edit?usp=sharing)
->- CUGOS Spring Fling 2017, Seattle, WA:
->>presented Vulcan Technology and Open Source Geo.
+>>- presented [A Primer on OpenStreetMap and Applications to Conservation](https://docs.google.com/presentation/d/1zVOn-MY0yLkzi1AFVDWnqPjft8Fsf8NJmRQKGiEDTBs/edit?usp=sharing)
+>- Earth Engine User Summit 2017, Mountain View, CA:
+>>- presented [Understanding Animal Movement and Environment](https://docs.google.com/presentation/d/14UHLrFn7n6dfb2h123iTMtvfQv5uh2Y0bfFZWEM5s-s/edit?usp=sharing)
+>- [CUGOS Spring Fling 2017](http://cugos.org/2017-spring-fling/), Seattle, WA:
+>>- presented [Vulcan Technology and Open Source Geo](https://docs.google.com/presentation/d/1HMY_MwSUD6JIrUWDZkEBIrvUXz7oM6YSfhexk7ZhnZA/edit?usp=sharing).
 >- SCGIS Conference 2016, Monterey, CA:
->>presented [Managing large-scale wildlife survey data with GIS](http://www.conservationgis.org/scgis/2016/Scgis2016PROC.html#joel), the case of the Great Elephant Census.
+>>- presented [Managing large-scale wildlife survey data with GIS](http://www.conservationgis.org/scgis/2016/Scgis2016PROC.html#joel), the case of the Great Elephant Census.
 >- WEDC Conference 2005, Munyonyo, Uganda:
->>co-presented [A Clean Water Supply Atlas for Bundibugyo District, Uganda](http://wedc.lboro.ac.uk/resources/conference/31/Masso.pdf) with Michael Masso.
+>>- co-presented [A Clean Water Supply Atlas for Bundibugyo District, Uganda](http://wedc.lboro.ac.uk/resources/conference/31/Masso.pdf) with Michael Masso.
 
 **Skills**
 >*desktop GIS / data visualization software*
@@ -75,7 +79,7 @@ Clark Univ. (Massachusetts)
 >*Open data platforms*
 - OpenStreetMap editors (JOSM, iD)
   - coordinated >20 corporate MissingMaps mapathons
-  - helped to launch [OSM.earth](http://www.osm.earth), see [Medium article](https://blog.mapbox.com/a-mapathon-for-the-environment-with-osm-earth-8f0f2fd187d3)
+  - helped to launch [OSM.earth](https://osm.earth), see [Medium article](https://blog.mapbox.com/a-mapathon-for-the-environment-with-osm-earth-8f0f2fd187d3)
 - Google Earth Engine JavaScript & Python APIs
   - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
 - Ushahidi:
