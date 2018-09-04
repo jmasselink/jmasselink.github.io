@@ -85,7 +85,7 @@ Clark Univ. (Massachusetts)
 - Google Earth Engine JavaScript & Python APIs
   - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
 - Ushahidi:
-  - deployment support to Congolese pro-democracy activisit network
+  - deployment support to Congolese pro-democracy activist network
 - OpenDataKit (ODK) Collect
 
 >*Web development*
