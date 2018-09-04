@@ -3,9 +3,6 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-<!-- >**Joel Masselink**<br>
-***Geospatial Specialist and Consultant***<br>
-*Seattle, Washington* -->
 
 **Not what you're looking for? Check out my [resumap](/maps/resumap.html)**.
 
@@ -17,18 +14,38 @@ Clark Univ. (Massachusetts)
 
 **Work**
 >*Principal Consultant*<br>
-Earth Logic LLC, 2014 - 2015; 2018 - present<br>
+**Earth Logic LLC**. Seattle, WA. 2014 - 2015, and 2018 - present. <br>
 - provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
 
 >*GIS Developer* <br>
-Vulcan Technology, 2015 - 2018<br>
-- supported conservation tech projects including Great Elephant Census and Domain Awareness System with geospatial data management, analysis, and visualization expertise.
+**Vulcan Technology / Impact Engineering**. Seattle, WA. 2015 - 2018. <br>
+- supported conservation technology projects with geospatial data management, analysis, and visualization expertise.
+  - *Great Elephant Census*:
+  - *Domain Awareness System*:
 
 >*GIS Coordinator*<br>
-Wildlife Conservation Society - DR Congo program,
-2009 - 2013<br>
+**Wildlife Conservation Society - DR Congo program**. Epulu, DRC. 2009 - 2013.<br>
 - supported field projects with GIS capacity-building, spatial analysis, and technical assistance.
+- served as WCS' focal point for *Africa Biodiversity Collaborative Group (ABCG)* *Mining & Biodiversity in DRC* collaborative team.
+  - Led planning and implementation of successful workshop entitled [“Mitigating the Impacts from Mining in the DRC”](http://pfbc-cbfp.org/news_en/items/ABCG-ENEN.html) in June 2013, funded by USAID and sponsored by the Ministry of Mines. Identified participants, designed thematic sessions, and managed $50K budget
 
+>*USAID Africa Bureau Intern*<br>
+**Central African Regional Program for the Environment (CARPE) / USAID Mission to the Democratic Republic of Congo**. Kinshasa, DRC. 2008.<br>
+- provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
+
+>*GIS/Database Manager*<br>
+**NAEVA Geophysics Inc.**. Charlottesville, VA. 2006 - 2007
+- Managed Access databases, mobile data collection, and provided GIS support for geophysical surveying projects.
+
+**Conference Presentations**
+>- Society for Conservation GIS (SCGIS) Conference 2018, Monterey, CA:
+>>presented [A Primer on OpenStreetMap and Applications to Conservation](https://docs.google.com/presentation/d/1zVOn-MY0yLkzi1AFVDWnqPjft8Fsf8NJmRQKGiEDTBs/edit?usp=sharing)
+>- CUGOS Spring Fling 2017, Seattle, WA:
+>>presented Vulcan Technology and Open Source Geo.
+>- SCGIS Conference 2016, Monterey, CA:
+>>presented [Managing large-scale wildlife survey data with GIS](http://www.conservationgis.org/scgis/2016/Scgis2016PROC.html#joel), the case of the Great Elephant Census.
+>- WEDC Conference 2005, Munyonyo, Uganda:
+>>co-presented [A Clean Water Supply Atlas for Bundibugyo District, Uganda](http://wedc.lboro.ac.uk/resources/conference/31/Masso.pdf) with Michael Masso.
 
 **Skills**
 >*desktop GIS / data visualization software*
@@ -58,10 +75,12 @@ Wildlife Conservation Society - DR Congo program,
 >*Open data platforms*
 - OpenStreetMap editors (JOSM, iD)
   - coordinated >20 corporate MissingMaps mapathons
+  - helped to launch [OSM.earth](http://www.osm.earth), see [Medium article](https://blog.mapbox.com/a-mapathon-for-the-environment-with-osm-earth-8f0f2fd187d3)
 - Google Earth Engine JavaScript & Python APIs
   - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
+- Ushahidi:
+  - deployment support to Congolese pro-democracy activisit network
 - OpenDataKit (ODK) Collect
-- Ushahidi deployment support
 
 >*Web development*
 - GitHub pages
@@ -77,3 +96,5 @@ Wildlife Conservation Society - DR Congo program,
 - United States: northeast, mid-Atlantic, southeast, Pacific northwest
 - central Africa (DR Congo, Congo)
 - east Africa (Uganda, Rwanda, Kenya)
+
+*[PDF version](/assets/JoelMasselink_Resume_2018.pdf)*
