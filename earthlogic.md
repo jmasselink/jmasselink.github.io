@@ -4,7 +4,7 @@ title: Consulting
 permalink: /earthlogic/
 ---
 
-**Earth Logic LLC** is a small consulting firm focused on helping clients to develop geospatial data, maps, and insights for their organizations.
+**Earth Logic LLC** is a small consulting firm focused on helping clients to develop geospatial data, maps, and insights for their organizations. Please reach out to [me](mailto:jmasselink@gmail.com) if you are interested in doing some mapping, and would like some help!
 
 Earth Logic has expertise in working with wildlife survey data and protected area boundary and infrastructure maps.
 
@@ -18,13 +18,21 @@ Earth Logic has expertise in working with wildlife survey data and protected are
 
 *SELECTED PROJECT EXPERIENCE*:
 
+- **Great Elephant Census Forest Initiative** - Data Analysis
+>Wildlife Conservation Society: September 2018 – present
+>>Earth Logic is partnering with Wildlife Conservation Society and Vulcan to harmonize wildlife surveys across forest elephant range. Earth Logic is providing data wrangling, translation, and management services for this project.
+The goals of this project are:
+>> - 1) to permit a range-wide assessment of African forest elephant status.
+>> - 2) to facilitate a comparison of standard methods (transect dung-count surveys) with emerging methods (DNA, camera traps) for status assessments.
+>> - 3) to create a baseline from which future surveys and monitoring activities can be planned.
+
 - **Ecological Record Data Model for SMART** – USAID Strengthening Central Africa Environmental Management & Policy Support
 >World Resources Institute: May 2015 – December 2015
 >>Earth Logic partnered with World Resources Institute to create a harmonized Central Africa Ecological Records data model for SMART and harmonized 50 forest survey datasets to this model as part of this project. Earth Logic provided data processing, translation, and management services to the World Resources Institute and worked closely with Wildlife Conservation Society throughout this project.
 
 - **Cartography of legal limits of DRC Protected Area system**
 > World Wildlife Fund - US: May 2014 – December 2015
->>Earth Logic partnered with World Wildlife Fund-US to map the legal limits of DR Congo’s network of protected areas. Earth Logic undertook a systematic review of legal decrees creating or revising each protected area, defining their boundaries by their simplest elements, and mapping them using historic maps and other spatial data sources. This was Phase 1 of the Support Program to DRC Protected Areas Network (Programme d’Appui au Réseau des Aires Protégées), which WWF leads to support the DRC government in conserving biodiversity and safeguarding ecosystem services through an effectively managed network of protected areas.
+>>Earth Logic partnered with World Wildlife Fund-US to map the legal limits of DR Congo’s network of protected areas. Earth Logic undertook a systematic review of legal decrees creating or revising each protected area, defining their boundaries by their simplest elements, and mapping them using historic maps and other spatial data sources. This was Phase 1 of the Support Program to DRC Protected Areas Network (*Programme d’Appui au Réseau des Aires Protégées*), which WWF leads to support the DRC government in conserving biodiversity and safeguarding ecosystem services through an effectively managed network of protected areas.
 
 - **Spatial Data Assessment for Large-Scale Infrastructure in Lower Mekong Countries**
 >Wildlife Conservation Society: September 2014 ­ December 2014
