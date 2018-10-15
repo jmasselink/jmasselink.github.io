@@ -26,6 +26,7 @@ The goals of this project are:
 >> - 2) to facilitate a comparison of standard methods (transect dung-count surveys) with emerging methods (DNA, camera traps) for status assessments.
 >> - 3) to create a baseline from which future surveys and monitoring activities can be planned.
 
+<br>
 - **Ecological Record Data Model for SMART** – USAID Strengthening Central Africa Environmental Management & Policy Support
 >World Resources Institute: May 2015 – December 2015
 >>Earth Logic partnered with World Resources Institute to create a harmonized Central Africa Ecological Records data model for SMART and harmonized 50 forest survey datasets to this model as part of this project. Earth Logic provided data processing, translation, and management services to the World Resources Institute and worked closely with Wildlife Conservation Society throughout this project.
