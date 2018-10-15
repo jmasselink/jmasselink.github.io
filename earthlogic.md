@@ -10,7 +10,7 @@ Earth Logic has expertise in working with wildlife survey data and protected are
 
 
 *SERVICES OFFERED*:
-- geospatial data compiling, processing, and curation
+- geospatial data compilation, processing, and curation
 - geoprocessing using models and scripts
 - data modeling and management
 - cartography and geovisualization

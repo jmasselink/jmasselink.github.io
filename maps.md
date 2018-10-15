@@ -15,4 +15,7 @@ Here are a few maps that I'm working on using different JavaScript libraries:
 
 **Made with LeafletJS**
 * [Seattle map](/maps/seattle-leaflet.html)
+
+**Made with QGIS**
+* [DRC map](/maps/DRC_map.jpeg)
 <!-- * [South Luangwa map](/maps/sluangwa/SLuangwa-map-leaflet.html) -->
