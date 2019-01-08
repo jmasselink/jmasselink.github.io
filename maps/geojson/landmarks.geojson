@@ -12,7 +12,7 @@ var landmarks = {
 }, {
 "type": "Feature",
 "properties": {
-  "Name": "Safeco Field"
+  "Name": "T-Mobile Park"
 },
 "geometry": {
   "type": "Point",
