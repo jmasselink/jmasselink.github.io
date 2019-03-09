@@ -19,8 +19,13 @@ Clark Univ. (Massachusetts)
 **Earth Logic LLC**. Seattle, WA. 2014 - 2015, and 2018 - present. <br>
 - provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
 
+>*Geospatial Data Analyst* <br>
+**Microsoft - Bing Maps**. Bellevue, WA. 2018 - present. <br>
+- 	Using desktop GIS software, command-line libraries, and database clients, perform spatial 
+analysis on large datasets to answer questions about data quality and coverage.
+
 >*GIS Developer* <br>
-**Vulcan Technology / Impact Engineering**. Seattle, WA. 2015 - 2018. <br>
+**Vulcan - Impact Engineering**. Seattle, WA. 2015 - 2018. <br>
 - supported conservation technology projects with geospatial data management, analysis, and visualization expertise.
   - [*Great Elephant Census*](http://www.greatelephantcensus.com): processed and normalized database containing over a hundred aerial wildlife surveys.
   - [*Domain Awareness System*](https://www.vulcan.com/news/articles/2017/domain-awareness-system): developed spatial data model, schema, and reference geospatial data for ~15 African protected areas where DAS was being deployed.
@@ -69,12 +74,13 @@ Clark Univ. (Massachusetts)
 
 >*Spatial databases*
 - PostGIS (PostgreSQL)
+- SQL Server
 - GeoPackages / Spatialite (SQLite)
 - ArcGIS Enterprise & File Geodatabases
 
 >*Programming / Scripting*
 - command line utilities (bash, cmd)
-- Python
+- Python (ArcPy, pandas)
 - GDAL / OGR
 - Git / GitHub / version control
 
