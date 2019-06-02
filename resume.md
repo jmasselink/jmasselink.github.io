@@ -20,8 +20,8 @@ Clark Univ. (Massachusetts)
 - provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
 
 >*Geospatial Data Analyst* <br>
-**Microsoft - Bing Maps**. Bellevue, WA. 2018 - present. <br>
-- 	Using desktop GIS software, command-line libraries, and database clients, perform spatial 
+**Microsoft - Bing Maps via Insight Global**. Bellevue, WA. 2018 - present. <br>
+- 	Using desktop GIS software, command-line libraries, and database clients, perform spatial
 analysis on large datasets to answer questions about data quality and coverage.
 
 >*GIS Developer* <br>

@@ -17,5 +17,7 @@ Here are a few maps that I'm working on using different JavaScript libraries:
 * [Seattle map](/maps/seattle-leaflet.html)
 
 **Made with QGIS**
-* [DRC map](/maps/DRC_map.jpeg)
+* [Democratic Republic of Congo](/maps/DRC_map.jpeg)  - activist network locations
 <!-- * [South Luangwa map](/maps/sluangwa/SLuangwa-map-leaflet.html) -->
+
+* *Forthcoming*: [Sacred Forest, Nicaragua](/maps/SuNica.jpeg)
