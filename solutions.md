@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Solutions
-permalink: /earthlogic/solutions
+permalink: /solutions/
 ---
 
 ## Monitoring Wildlife

@@ -6,7 +6,7 @@ permalink: /resume/
 
 **Not what you're looking for?** <br/>
 Check out my [resumap](/maps/resumap.html)
-or download a [PDF version](/assets/JoelMasselink_Resume_2018.pdf) of my resume.
+or download a [PDF version](/assets/JoelMasselink_Resume_2019.pdf) of my resume.
 
 **Education**
 >MA, GIS for Development & Environment, 2009<br>
@@ -20,9 +20,8 @@ Clark Univ. (Massachusetts)
 - provides custom geospatial planning, analysis, and management solutions for the environmental, natural resource, and international development sectors.
 
 >*Geospatial Data Analyst* <br>
-**Microsoft - Bing Maps via Insight Global**. Bellevue, WA. 2018 - present. <br>
-- 	Using desktop GIS software, command-line libraries, and database clients, perform spatial
-analysis on large datasets to answer questions about data quality and coverage.
+**Microsoft - Bing Maps via Insight Global**. Bellevue, WA. 2018 - 2019. <br>
+- 	Managed releases, evaluated metrics, and performed analytics on new data sources for Bing Maps. Used desktop GIS software, command-line libraries, and database clients, to evaluate data quality and coverage.
 
 >*GIS Developer* <br>
 **Vulcan - Impact Engineering**. Seattle, WA. 2015 - 2018. <br>
