@@ -4,15 +4,15 @@ title: Consulting
 permalink: /earthlogic/
 ---
 
-**Earth Logic LLC** is a small consulting firm focused on helping clients to develop geospatial data, maps, and insights for their organizations. Please reach out to [me](mailto:jmasselink@gmail.com) if you are interested in doing some mapping, and would like some help!
+**Earth Logic LLC** is a consulting business focused on helping clients to develop geospatial data, maps, and insights for their organizations. Please reach out to [me](mailto:jmasselink@gmail.com) if you would like some help integrating mapping into your work!
 
-Earth Logic has expertise in working with wildlife survey data and protected area boundary and infrastructure maps.
+Earth Logic has expertise in wildlife survey data, and GIS analysis support to land-use planning, protected area management, and natural resource management processes.
 
 
 *SERVICES OFFERED*:
 - geospatial data compilation, processing, and curation
 - geoprocessing using models and scripts
-- data modeling and management
+- database design, data modeling, database management, and data QA / QC 
 - cartography and geovisualization
 
 
