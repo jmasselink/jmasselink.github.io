@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset='utf-8' />
+  <!-- <meta charset='utf-8' /> -->
 	<title>Natural World Heritage in Danger</title>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"/>
-	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 	<script src="geojson/whs_in_danger.geojson" type="text/javascript"></script>
   <style>
   	#map {
@@ -16,11 +16,14 @@
 <body>
 	<div id="map"></div>
 	<script>
+    // var sites = 'geojson/whs_in_danger.geojson'; //added
+    // map.addLayer(sites);
+
     var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://carto.com/attributions">CARTO</a>'
 		});
 
-		var unit = "km" + "2".sup()
+		// var unit = "km" + "2".sup()
 
   	var map = L.map('map', {
     			center: [0, 0],
