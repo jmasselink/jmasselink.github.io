@@ -6,13 +6,31 @@ permalink: /resume/
 
 **Not what you're looking for?** <br/>
 Check out my [resumap](/maps/resumap.html)
-or download a [PDF version](/assets/JoelMasselink_Resume_2019.pdf) of my resume.
+or download a [PDF version](/assets/JMasselink_Resume_2019.pdf) of my resume.
 
-**Education**
->MA, GIS for Development & Environment, 2009<br>
-Clark Univ. (Massachusetts)
+**Summary**
+- A motivated, reliable professional dedicated to project efficiency, success, and impact.
+- 12 years of experience providing GIS services for conservation and international development projects.
+- An accountable, empathetic leader who values diverse perspectives and demonstrates integrity.
+- Polymath with a keen eye for detail, technical precision, solution design, and stakeholder support.
+- Employs a diverse geospatial science skillset to address environmental and sustainability issues.
+- French proficiency, cultural adaptiveness, experience working cross-culturally in low-income countries.
 
->BS, Geographic Science, 2005<br> James Madison Univ. (Virginia)<br>
+
+**What I offer:**
+- Expert GIS skills developing analytical workflows, compiling data, and cartographic design
+- Expertise with diverse GIS software and tools including:
+  - desktop GIS platforms – ArcMap, QGIS
+  - geoprocessing – GDAL/OGR, Python, ArcPy, and ModelBuilder
+  - geospatial databases – PostgreSQL/PostGIS, ArcGIS Server, SQL Server, Cosmos
+  - mobile data collection – ODK Collect, Trimble, Ushahidi
+  - web-mapping libraries – Leaflet, Mapbox GL JS
+  - earth observation and image analysis platforms – Idrisi, ENVI, Earth Engine
+- Conversant with OpenStreetMap and authoritative public domain geospatial datasets.
+- Experience with designing solutions, technical training, and facilitating mapathons.
+- Experience in global wildlife conservation and natural resource management in sub-Saharan Africa.
+- Strong written and oral communication skills, strong leadership capacity.
+
 
 **Work**
 >*Principal Consultant*<br>
@@ -45,6 +63,12 @@ Clark Univ. (Massachusetts)
 **NAEVA Geophysics Inc.**. Charlottesville, VA. 2006 - 2007
 - Managed Access databases, mobile data collection, and provided GIS support for geophysical surveying projects.
 
+**Education**
+>MA, GIS for Development & Environment, 2009<br>
+Clark Univ. (Massachusetts)
+
+>BS, Geographic Science, 2005<br> James Madison Univ. (Virginia)<br>
+
 **Conference Presentations**
 >- Society for Conservation GIS (SCGIS) Conference 2018, Monterey, CA:
 >>- presented [A Primer on OpenStreetMap and Applications to Conservation](https://docs.google.com/presentation/d/1zVOn-MY0yLkzi1AFVDWnqPjft8Fsf8NJmRQKGiEDTBs/edit?usp=sharing).
@@ -57,7 +81,7 @@ Clark Univ. (Massachusetts)
 >- WEDC Conference 2005, Munyonyo, Uganda:
 >>- co-presented [A Clean Water Supply Atlas for Bundibugyo District, Uganda](http://wedc.lboro.ac.uk/resources/conference/31/Masso.pdf) with Michael Masso.
 
-**Skills**
+<!-- **Skills**
 >*desktop GIS / data visualization software*
 - ArcGIS
 - QGIS
@@ -91,13 +115,13 @@ Clark Univ. (Massachusetts)
   - [MaptimeSEA tutorial from July 2017](http://maptimesea.github.io/2017/07/12/earthengine.html)
 - Ushahidi:
   - deployment support to Congolese pro-democracy activist network
-- OpenDataKit (ODK) Collect
-
+- OpenDataKit (ODK) Collect -->
+<!-- 
 >*Web development*
 - GitHub pages
 - JavaScript / Markdown
 - WordPress
-- HTML / CSS
+- HTML / CSS -->
 
 >*Languages spoken*
 - conversant in French
