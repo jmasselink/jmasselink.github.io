@@ -3,7 +3,7 @@
           <head>
             <meta charset="utf-8">
             <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-            <title>Northbridge MA LiDAR hillshade</title>
+            <title>Northbridge, MA - terrain</title>
 
             <!-- Leaflet -->
             <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
@@ -70,7 +70,7 @@
         });
 
         var basemaps = {"OpenStreetMap": osm, "Carto Positron": cartodb, "Stamen Toner": toner, "Without background": white}
-        var overlaymaps = {"Layer": lyr}
+        var overlaymaps = {"Hillshade (1m LiDAR DEM)": lyr}
 
         // Title
         var title = L.control();
@@ -80,7 +80,7 @@
             return this._div;
         };
         title.update = function(props) {
-            this._div.innerHTML = "Northbridge MA LiDAR hillshade"; //northbridge_hillshade_3857.tif";
+            this._div.innerHTML = "Northbridge, MA - terrain"; //northbridge_hillshade_3857.tif";
         };
         title.addTo(map);
 
@@ -97,7 +97,8 @@
         };
         title.addTo(map);
 
-
+        // added this so that hillshade would be "on" be default
+        lyr.addTo(map)
         // Add base layers
         L.control.layers(basemaps, overlaymaps, {collapsed: false}).addTo(map);
 
