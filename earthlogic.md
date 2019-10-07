@@ -12,14 +12,14 @@ Earth Logic has expertise in wildlife survey data, and GIS analysis support to l
 *SERVICES OFFERED*:
 - geospatial data compilation, processing, and curation
 - geoprocessing using models and scripts
-- database design, data modeling, database management, and data QA / QC 
+- database design, data modeling, database management, and data QA / QC
 - cartography and geovisualization
 
 
 *SELECTED PROJECT EXPERIENCE*:
 
 - **Great Elephant Census Forest Initiative** - Data Analysis
->Wildlife Conservation Society: September 2018 – present
+>Wildlife Conservation Society: September 2018 – August 2019
 >>Earth Logic is partnering with Wildlife Conservation Society and Vulcan to harmonize wildlife surveys across forest elephant range. Earth Logic is providing data wrangling, translation, and management services for this project.
 The goals of this project are:
 >> - 1) to permit a range-wide assessment of African forest elephant status.
