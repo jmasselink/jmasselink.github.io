@@ -6,7 +6,7 @@ permalink: /resume/
 
 **Not what you're looking for?** <br/>
 Check out my [resumap](/maps/resumap.html)
-or download a [PDF version](/assets/JMasselink_Resume_2019.pdf) of my resume.
+or download a [PDF version](/assets/JMasselink_Resume_2020.pdf) of my resume.
 
 **Summary**
 - A motivated, reliable professional dedicated to project efficiency, success, and impact.
@@ -116,7 +116,7 @@ Clark Univ. (Massachusetts)
 - Ushahidi:
   - deployment support to Congolese pro-democracy activist network
 - OpenDataKit (ODK) Collect -->
-<!-- 
+<!--
 >*Web development*
 - GitHub pages
 - JavaScript / Markdown
