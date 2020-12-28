@@ -12,7 +12,7 @@ Here are a few maps that I'm working on using different JavaScript libraries:
 <!-- * [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html) -->
 **Made with Mapbox GL JS**
 * [My Resumap!](/maps/resumap.html)
-* [Scrollytelling](maps/scrollytelling/index.html)
+* [Scrollytelling](maps/scrollytelling/src/index.html)
 
 **Made with LeafletJS**
 * [Seattle map](/maps/seattle-leaflet.html)
