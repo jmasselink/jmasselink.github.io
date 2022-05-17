@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
->Hi there! My name is Joel Masselink and I am a geospatial specialist and consultant based in [Seattle, Washington](/maps/seattle-leaflet.html). For a few years now, I have worked as an independent consultant with my consulting business called [**Earth Logic LLC**](/earthlogic). Consulting allows me to work closely with clients like conservation nonprofits, companies, and international development organizations on curating geospatial data and developing customized solutions for their projects.
+>Hi there! My name is Joel Masselink and I am a geospatial specialist. For a few years now, I have worked as an independent consultant with my consulting business [**Earth Logic LLC**](/earthlogic). Consulting allows me to work closely with clients like conservation nonprofits, companies, and international development organizations on curating geospatial data and developing customized solutions for their projects.
 
 #### My Career
->I have previously worked for [Vulcan](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle) on the [Great Elephant Census](http://www.greatelephantcensus.com) and Domain Awareness System projects, and for [Wildlife Conservation Society](http://www.wcs.org) in the Democratic Republic of the Congo. My work has involved managing, analyzing, and visualizing massive datasets related to wildlife surveys, and protected area geospatial data.
+>I previously worked for [Vulcan](http://www.vulcan.com/technology)'s Impact Engineering team (also in Seattle) on the [Great Elephant Census](http://www.greatelephantcensus.com) and [EarthRanger](https://www.earthranger.com) projects, and for [Wildlife Conservation Society](http://www.wcs.org) in the Democratic Republic of the Congo. My work has involved managing, analyzing, and visualizing massive datasets related to wildlife surveys, and protected area geospatial data.
 
 >Check out my [resume](resume.md) for more details about my career.
 
