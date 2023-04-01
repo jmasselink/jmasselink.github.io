@@ -12,7 +12,7 @@ Here are a few maps that I'm working on using different JavaScript libraries:
 <!-- * [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html) -->
 ****Made with Mapbox GL JS****
 
-* [Okapi Reserve storymap](maps/okapi_storymap/src/index.html)
+* [Okapi Reserve storymap](okapi_storymap/src/index.html)
 * [My Resumap!](/maps/resumap.html)
 * [Scrollytelling](maps/scrollytelling/src/index.html)
 

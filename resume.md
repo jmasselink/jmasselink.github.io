@@ -46,7 +46,7 @@ or download a [PDF version](/assets/JMasselink_Resume_2020.pdf) of my resume.
 >*Geospatial Data Analyst* <br>
 **Microsoft - Bing Maps via Insight Global**. Bellevue, WA. 2018 - 2019. <br>
 
--  Managed releases, evaluated metrics, and performed analytics on new data sources for Bing Maps. Used desktop GIS software, command-line libraries, and database clients, to evaluate data quality and coverage.
+- Managed releases, evaluated metrics, and performed analytics on new data sources for Bing Maps. Used desktop GIS software, command-line libraries, and database clients, to evaluate data quality and coverage.
 
 >*GIS Developer* <br>
 **Vulcan - Impact Engineering**. Seattle, WA. 2015 - 2018. <br>
