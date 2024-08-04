@@ -23,3 +23,4 @@ _unused
 _config_backup.yml
 maps/templates
 html-version.html
+maps/vector-tiles

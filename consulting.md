@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Consulting
-permalink: /earthlogic/
+permalink: /consulting/
 ---
 
-**Earth Logic LLC** is a consulting business focused on helping clients to develop geospatial data, maps, and insights for their organizations. Please reach out to [me](mailto:jmasselink@gmail.com) if you would like some help integrating mapping into your work!
+I provide consulting services focused on helping clients to develop geospatial data, maps, and insights for their organizations. Please reach out to [me](mailto:jmasselink@gmail.com) if you would like some help integrating mapping into your work!
 
 Earth Logic has expertise in wildlife survey data, and GIS analysis support to land-use planning, protected area management, and natural resource management processes.
 

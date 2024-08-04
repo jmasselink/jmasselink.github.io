@@ -11,7 +11,7 @@ or download a [PDF version](/assets/JMasselink_Resume_2020.pdf) of my resume.
 **Summary**
 
 - A motivated, reliable professional dedicated to project efficiency, success, and impact.
-- 14 years of experience providing GIS services for conservation and international development projects.
+- 15 years of experience providing GIS services for conservation and international development projects.
 - An accountable, empathetic leader who values diverse perspectives and demonstrates integrity.
 - Polymath with a keen eye for detail, technical precision, solution design, and stakeholder support.
 - Employs a diverse geospatial science skillset to address environmental and sustainability issues.
@@ -22,19 +22,24 @@ or download a [PDF version](/assets/JMasselink_Resume_2020.pdf) of my resume.
 - Expert GIS skills developing analytical workflows, compiling data, and cartographic design
 - Expertise with diverse GIS software and tools including:
   - desktop GIS platforms – QGIS
-  - geoprocessing – GDAL/OGR, Python, ArcPy, and ModelBuilder
-  - geospatial databases – PostgreSQL/PostGIS, ArcGIS Server, SQL Server, Cosmos
-  - mobile data collection – ODK Collect, Trimble, Ushahidi
+  - geo/data processing – GDAL/OGR, Python
+  - geospatial databases – PostgreSQL/PostGIS
+  - mobile data collection – ODK Collect, Kobo Toolbox, Ushahidi
   - web-mapping libraries – Leaflet, Mapbox GL JS
-  - earth observation and image analysis platforms – Idrisi, ENVI, Earth Engine
+  - earth observation and image analysis platforms – Earth Engine
 - Conversant with OpenStreetMap and authoritative public domain geospatial datasets.
 - Experience with designing solutions, technical training, and facilitating mapathons.
 - Experience in global wildlife conservation and natural resource management in sub-Saharan Africa.
 - Strong written and oral communication skills, strong leadership capacity.
 
 **Work**
+>*Geospatial Developer* <br>
+**Small Business Administration HUBZone Program via Oasys International LLC**. Fairfax, VA. 2024 - present. <br>
+
+- Managed releases, evaluated metrics, and performed analytics on new data sources for Bing Maps. Used desktop GIS software, command-line libraries, and database clients, to evaluate data quality and coverage.
+
 >*Senior Lead, Geospatial and Data Services*<br>
-**Creative Associates International, Inc**. Chevy Chase, MD. 2020 - present. <br>
+**Creative Associates International, Inc**. Chevy Chase, MD. 2020 - 2023. <br>
 
 - provides geospatial planning, analysis, and management solutions for business development, project implementation, and monitoring.
 
