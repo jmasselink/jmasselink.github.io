@@ -6,10 +6,6 @@ permalink: /maps/
 
 Here are a few maps that I'm working on using different JavaScript libraries:
 
-<!-- * [South Luangwa *thunderforest* map](/maps/SLuangwa-map-thunderforest.html)<br> -->
-<!-- * [Seattle farmers' market *leafletjs* map](/maps/Seattle-markets-map.html)
-* [Seattle *thunderforest* map](/maps/survive-sound-thunderforest.html) -->
-<!-- * [South Luangwa mapbox map](/maps/SLuangwa-map-mapbox.html) -->
 **Made with Mapbox GL JS**
 
 * [Okapi Reserve storymap](https://joelmasselink.com/okapi_storymap/src/index.html)
@@ -19,6 +15,4 @@ Here are a few maps that I'm working on using different JavaScript libraries:
 **Made with QGIS**
 
 * [Democratic Republic of Congo](/maps/DRC_map.jpeg)  - activist network locations
-<!-- * [South Luangwa map](/maps/sluangwa/SLuangwa-map-leaflet.html) -->
-<!-- 
-* *Forthcoming*: [Sacred Forest, Nicaragua](/maps/SuNica.jpeg) -->
+* [Democratic Republic of Congo](/maps/DRC_map.jpeg) river network: made using Python
